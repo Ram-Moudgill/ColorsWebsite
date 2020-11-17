@@ -1,0 +1,30 @@
+/* .header__img {
+  width: 100%;
+}
+.header__div {
+  background-color: #7bec4126;
+  height: 200px;
+}
+.color-picker {
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+input[type='text'] {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin: 8px 0;
+  padding: 4px;
+  border-radius: 5px;
+}
+input[type='color'] {
+  position: absolute;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  right: 0;
+  background: rgb(31, 38, 103);
+} */

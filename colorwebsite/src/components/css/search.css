@@ -1,0 +1,23 @@
+.search__div {
+  border: 1px solid rgb(118 118 118 / 12%);
+  /* height: 60px; */
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  border-radius: 15px;
+  margin: 10px 20px;
+}
+.search_filter_input {
+  border: 1px solid rgb(118 118 118 / 12%);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.search_filter_input:focus {
+  outline: none;
+}

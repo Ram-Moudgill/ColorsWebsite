@@ -1,0 +1,9 @@
+.header {
+  /* background: linear-gradient(90deg, #50c8 0%, #ff5757 99%); */
+  background: linear-gradient(90deg, #e0172af2 0%, #ff5757 99%);
+  padding: 10px 0px;
+  color: #fff !important;
+  margin: 10px 20px;
+  border-radius: 15px;
+}
+/* #ffd98 */

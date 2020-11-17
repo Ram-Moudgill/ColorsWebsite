@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+/colorwebsite/.pnp
+/colorwebsite/.pnp.js
+
+# testing
+/colorwebsite/coverage
+
+# production
+/colorwebsite/build
+
+# misc
+/colorwebsite/.DS_Store
+/colorwebsite/.env.local
+/colorwebsite/.env.development.local
+/colorwebsite/.env.test.local
+/colorwebsite/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

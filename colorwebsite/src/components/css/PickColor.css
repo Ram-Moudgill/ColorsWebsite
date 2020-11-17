@@ -1,0 +1,61 @@
+.colored__div {
+  cursor: pointer;
+  width: calc(100% + 2px);
+  height: 86px;
+  padding: 0;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.color-picker {
+  background: transparent;
+  height: auto;
+  border: 1px solid rgb(118 118 118 / 12%);
+  letter-spacing: 2px;
+  line-height: 50px;
+  padding: 23px 15px;
+}
+.sketch__picker {
+  width: 100% !important;
+  cursor: pointer !important;
+  border-radius: 4px;
+  height: auto;
+  padding: 0 !important;
+  border: none;
+  outline: none;
+}
+.flexbox-fix:nth-child(2) div {
+  height: 25px !important;
+}
+.flexbox-fix:nth-child(3),
+.flexbox-fix:nth-child(4) {
+  display: none !important;
+}
+.flexbox-fix:nth-child(2) > div {
+  width: 0 !important;
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+  border-radius: 3px !important;
+}
+.saturation-black + div > div {
+  width: 14px !important;
+  height: 14px !important;
+  border: 2px solid #fff !important;
+  border-radius: 50% !important;
+  background: transparent !important;
+}
+
+.main-color {
+  width: 180px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .main-color {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-5 {
+    flex: 0 0 41.666667%;
+    max-width: 34%;
+  }
+}

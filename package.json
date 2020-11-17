@@ -1,0 +1,25 @@
+{
+  "name": "colorswebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js",
+    "server":"nodemon Server.js",
+    "colorwebsite":"npm start --prefix colorwebsite",
+    "colorwebsiteinstall":"npm install --prefix colorwebsite",
+    "dev":"concurrently \"npm run server\" \"npm run colorwebsite\""
+  },
+  "author": "Ram moudgill",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
