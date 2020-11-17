@@ -1,18 +1,8 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
 node_modules/
-/colorwebsite/.pnp
-/colorwebsite/.pnp.js
 
-# testing
-/colorwebsite/coverage
-
-# production
 /colorwebsite/build
 
-# misc
-/colorwebsite/.DS_Store
+.DS_Store
 /colorwebsite/.env.local
 /colorwebsite/.env.development.local
 /colorwebsite/.env.test.local
