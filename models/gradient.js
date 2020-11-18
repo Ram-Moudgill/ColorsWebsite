@@ -3,10 +3,12 @@ const gradientSchema = new mongoose.Schema({
   id: {
     type: String,
     required: true,
+    unique: true,
   },
   gradient: {
     type: String,
     required: true,
+    unique: true,
   },
   category: {
     type: String,

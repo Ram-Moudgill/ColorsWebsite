@@ -3,6 +3,7 @@ const paletteSchema = new mongoose.Schema({
   id: {
     type: String,
     required: true,
+    unique: true,
   },
   color1: {
     type: String,

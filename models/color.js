@@ -3,10 +3,12 @@ const colorSchema = new mongoose.Schema({
   id: {
     type: String,
     required: true,
+    unique: true,
   },
   color: {
     type: String,
     required: true,
+    unique: true,
   },
   category: {
     type: String,
