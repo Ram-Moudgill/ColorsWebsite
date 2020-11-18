@@ -45,7 +45,7 @@ router.get('/category/:colorcategory', async (req, res, next) => {
   if (categoryArray.includes(category)) {
     try {
       const colors = await colorModel.find({ category })
-      res.json({ colors })
+      res.json({ colors: colors })
     } catch (err) {
       res.status(500).json({ msg: 'Sever error' })
     }

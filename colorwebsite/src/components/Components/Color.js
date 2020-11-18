@@ -22,29 +22,16 @@ const Color = ({ co }) => {
   const closeModal = () => {
     setShow(false)
   }
-
-  const [colors, setColors] = useState([])
-  useEffect(() => {
-    const fetchColors = async () => {
-      const res = await axios.get('/api/colors')
-      let response = res.data.colors
-      for (let key in response) {
-        let ew = response[key].color
-        setColors(ew)
-      }
-    }
-    fetchColors()
-  }, [])
   const colorStyle = {
-    background: colors,
-    boxShadow: `0 20px 10px -15px ${colors}`,
+    background: co.color,
+    boxShadow: `0 20px 10px -15px ${co.color}`,
   }
 
   return (
     <>
       <div className='card my-4' style={colorStyle}>
         <div className='car'>
-          <CopyToClipboard text={colorStyle}>
+          <CopyToClipboard text={co.color}>
             <IconButton onClick={CopytoClipBoard}>
               <FileCopyIcon style={{ color: 'rgb(31, 38, 103)' }} />
               <span style={{ fontSize: 14 }}>{text}</span>
