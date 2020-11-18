@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../css/Color.css'
 import IconButton from '@material-ui/core/IconButton'
 import FileCopyIcon from '@material-ui/icons/FileCopyOutlined'
 import LaunchIcon from '@material-ui/icons/Fullscreen'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
+import axios from 'axios'
+
 const Color = ({ co }) => {
   const [text, setText] = useState('')
   function CopytoClipBoard() {
@@ -12,10 +14,7 @@ const Color = ({ co }) => {
       setText('')
     }, 700)
   }
-  const colorStyle = {
-    background: co.color,
-    boxShadow: `0 20px 10px -15px ${co.color}`,
-  }
+
   const [Show, setShow] = useState(false)
   const showModal = () => {
     setShow(true)
@@ -24,11 +23,28 @@ const Color = ({ co }) => {
     setShow(false)
   }
 
+  const [colors, setColors] = useState([])
+  useEffect(() => {
+    const fetchColors = async () => {
+      const res = await axios.get('/api/colors')
+      let response = res.data.colors
+      for (let key in response) {
+        let ew = response[key].color
+        setColors(ew)
+      }
+    }
+    fetchColors()
+  }, [])
+  const colorStyle = {
+    background: colors,
+    boxShadow: `0 20px 10px -15px ${colors}`,
+  }
+
   return (
     <>
       <div className='card my-4' style={colorStyle}>
         <div className='car'>
-          <CopyToClipboard text={co.color}>
+          <CopyToClipboard text={colorStyle}>
             <IconButton onClick={CopytoClipBoard}>
               <FileCopyIcon style={{ color: 'rgb(31, 38, 103)' }} />
               <span style={{ fontSize: 14 }}>{text}</span>

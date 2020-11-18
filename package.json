@@ -5,10 +5,10 @@
   "main": "Server.js",
   "scripts": {
     "start": "node Server.js",
-    "server":"nodemon Server.js",
-    "colorwebsite":"npm start --prefix colorwebsite",
-    "colorwebsiteinstall":"npm install --prefix colorwebsite",
-    "dev":"concurrently \"npm run server\" \"npm run colorwebsite\""
+    "server": "nodemon Server.js",
+    "colorwebsite": "npm start --prefix colorwebsite",
+    "colorwebsiteinstall": "npm install --prefix colorwebsite",
+    "dev": "concurrently \"npm run server\" \"npm run colorwebsite\""
   },
   "author": "Ram moudgill",
   "license": "ISC",
