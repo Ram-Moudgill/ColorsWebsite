@@ -74,17 +74,6 @@ const Navbar = () => {
                   exact
                   className='nav-link'
                   activeClassName='active'
-                  to='/combinations'
-                >
-                  Combinations
-                </NavLink>
-              </li>
-              <li className='nav-item'>
-                <NavLink
-                  style={{ color: mode ? '#0e2d4d' : '#fff' }}
-                  exact
-                  className='nav-link'
-                  activeClassName='active'
                   to='/gradients'
                 >
                   Gradients

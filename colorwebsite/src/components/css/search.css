@@ -8,6 +8,7 @@
   justify-content: space-around;
   align-items: center;
   /* flex-wrap: wrap; */
+  padding: 10px;
   border-radius: 15px;
   margin: 10px 20px;
 }

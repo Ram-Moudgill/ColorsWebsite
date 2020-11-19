@@ -26,15 +26,12 @@ class Gradients extends Component {
     } else {
       return (
         <>
-          <div>
-            <Header />
-          </div>
           <div className='row mt-4 p-0 mx-0'>
-            <div className='col-md-11 mx-auto'>
+            <div className='col-md-10 mx-auto'>
               <h2>Gradient Palette</h2>
               <div className='row'>
                 {this.state.collection.map((bg) => (
-                  <div className='col-lg-3 col-md-6' key={bg._id}>
+                  <div className='col-lg-4 col-sm-6' key={bg._id}>
                     <Gradient bg={bg}></Gradient>
                   </div>
                 ))}

@@ -34,8 +34,12 @@ const Gradient = ({ bg }) => {
               <span style={{ fontSize: 14 }}>{text}</span>
             </IconButton>
           </CopyToClipboard>
-          <IconButton className='text-right' onClick={showModal}>
-            <LaunchIcon style={{ color: 'rgb(31, 38, 103)' }}></LaunchIcon>
+          <IconButton
+            className='text-right'
+            onClick={showModal}
+            style={{ color: 'rgb(31, 38, 103)' }}
+          >
+            <i class='fas fa-expand-alt'></i>
           </IconButton>
         </div>
       </div>
