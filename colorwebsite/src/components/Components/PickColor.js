@@ -7,33 +7,34 @@ class PickColor extends React.Component {
     // displayColorPicker: false,
     hex: '#E0172A',
     color: {
-      r: '224',
-      g: '23',
-      b: '42',
-      a: '1 ',
+      r: 224,
+      g: 23,
+      b: 42,
+      a: 1,
     },
-    hsla: '354,90%,48%,1',
+    hsla: '354,90%,48%,1.000',
   }
 
-  handleChange = (color) => {
-    this.setState({ color: color.rgb })
+  handleChange = async (color) => {
+    await this.setState({ color: color.rgb })
     const { r, g, b, a } = this.state.color
-    this.setState({ hex: this.RGBAToHexA(r, g, b, a) })
-    this.setState({ hsla: this.hexToHSL(this.state.hex) })
+    await this.setState({ hex: this.RGBAToHexA(r, g, b, a) })
+    await this.setState({ hsla: this.hexToHSL(this.state.hex) })
   }
-  RGBAToHexA = (r, g, b, a) => {
+  RGBAToHexA(r, g, b, a) {
     r = r.toString(16)
     g = g.toString(16)
     b = b.toString(16)
     a = Math.round(a * 255).toString(16)
 
-    if (r.length === 1) r = '0' + r
-    if (g.length === 1) g = '0' + g
-    if (b.length === 1) b = '0' + b
-    if (a.length === 1) a = '0' + a
+    if (r.length == 1) r = '0' + r
+    if (g.length == 1) g = '0' + g
+    if (b.length == 1) b = '0' + b
+    if (a.length == 1) a = '0' + a
 
     return '#' + r + g + b + a
   }
+
   hexToHSL(H) {
     // Convert hex to RGB first
     let r = 0,
@@ -77,17 +78,7 @@ class PickColor extends React.Component {
     s = +(s * 100).toFixed(1)
     l = +(l * 100).toFixed(1)
     a = (a / 255).toFixed(3)
-    return (
-      '' +
-      h +
-      ',' +
-      Math.round(s) +
-      '%,' +
-      Math.round(l) +
-      '%,' +
-      Math.round(a) +
-      ''
-    )
+    return '' + h + ',' + Math.round(s) + '%,' + Math.round(l) + '%,' + a + ''
   }
 
   render() {
@@ -115,23 +106,32 @@ class PickColor extends React.Component {
                 <h5 className='mb-0 '>
                   <strong>Hex</strong>
                 </h5>
-                {this.state.hex}
+                {this.state.hex.endsWith('ff')
+                  ? this.state.hex.slice(0, 7)
+                  : this.state.hex}
               </div>
               <div className='RGBA'>
                 <h5 className='mb-0'>
-                  <strong>Rgba</strong>
+                  <strong>
+                    Rgb
+                    {!(this.state.color.a === 1) && 'a'}
+                  </strong>
                 </h5>
                 <span>
                   {this.state.color.r},{this.state.color.g},{this.state.color.b}
-                  ,{this.state.color.a}
+                  {!(this.state.color.a === 1) && `,${this.state.color.a}`}
                 </span>
               </div>
 
               <div className='HSL'>
                 <h5 className='mb-0'>
-                  <strong>Hsla</strong>
+                  <strong>
+                    Hsl{!this.state.hsla.endsWith('1.000') && 'a'}
+                  </strong>
                 </h5>
-                {this.state.hsla}
+                {this.state.hsla.endsWith('1.000')
+                  ? this.state.hsla.replace(',1.000', '')
+                  : this.state.hsla}
               </div>
             </div>
           </div>
