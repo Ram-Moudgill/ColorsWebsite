@@ -4,12 +4,14 @@ function Trycolors() {
   return (
     <div>
       color
-      <div class='alert alert-warning alert-dismissible fade show' role='alert'>
-        <strong>Holy guacamole!</strong> You should check in on some of those
-        fields below.
+      <div
+        className='alert alert-warning alert-dismissible fade show'
+        role='alert'
+      >
+        <strong>Hey!</strong> Under Development
         <button
           type='button'
-          class='close'
+          className='close'
           data-dismiss='alert'
           aria-label='Close'
         >

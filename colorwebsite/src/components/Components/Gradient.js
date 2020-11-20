@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import IconButton from '@material-ui/core/IconButton'
 import FileCopyIcon from '@material-ui/icons/FileCopyOutlined'
-import LaunchIcon from '@material-ui/icons/Fullscreen'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 
 const Gradient = ({ bg }) => {
@@ -35,7 +34,7 @@ const Gradient = ({ bg }) => {
             </IconButton>
           </CopyToClipboard>
           <IconButton className='text-right' onClick={showModal}>
-            <i class='fas fa-expand-alt'></i>
+            <i className='fas fa-expand-alt'></i>
           </IconButton>
         </div>
       </div>

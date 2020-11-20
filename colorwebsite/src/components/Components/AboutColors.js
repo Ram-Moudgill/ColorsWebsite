@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 const AboutColors = () => {
   return (
     <Fragment>
@@ -13,9 +14,9 @@ const AboutColors = () => {
               format. Below is the complete guide about how you can use this
               website.
             </p>
-            <a href='#' className='my_btn'>
+            <Link to='/colors' className='my_btn'>
               Get Started
-            </a>
+            </Link>
           </div>
         </div>
       </div>

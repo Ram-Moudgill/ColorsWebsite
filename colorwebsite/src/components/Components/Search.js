@@ -14,7 +14,7 @@ class Search extends Component {
       <Fragment>
         <div className='search__div d-flex justify-content-around  align-items-center'>
           <span className='font-weight-bold text-muted'>
-            Filter <i class='fas fa-angle-right'></i>
+            Filter <i className='fas fa-angle-right'></i>
           </span>
           <button
             className='search_filter_input'

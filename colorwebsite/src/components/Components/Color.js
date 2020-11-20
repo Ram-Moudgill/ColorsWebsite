@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import '../css/Color.css'
 import IconButton from '@material-ui/core/IconButton'
 import FileCopyIcon from '@material-ui/icons/FileCopyOutlined'
-import LaunchIcon from '@material-ui/icons/Fullscreen'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
-import axios from 'axios'
 
 const Color = ({ co }) => {
   const [text, setText] = useState('')
@@ -42,7 +40,7 @@ const Color = ({ co }) => {
             onClick={showModal}
             style={{ color: 'rgb(31, 38, 103)' }}
           >
-            <i class='fas fa-expand-alt'></i>
+            <i className='fas fa-expand-alt'></i>
           </IconButton>
         </div>
       </div>
