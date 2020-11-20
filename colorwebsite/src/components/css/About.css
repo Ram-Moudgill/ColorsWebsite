@@ -1,0 +1,16 @@
+p::selection {
+  color: var(--primary-color1);
+  background-color: black;
+}
+h5::selection {
+  color: white;
+  background-color: black;
+}
+
+h6::selection {
+  color: var(--primary-color1);
+  background-color: black;
+}
+.same {
+  text-decoration: underline;
+}
