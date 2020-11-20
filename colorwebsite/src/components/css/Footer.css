@@ -1,3 +1,9 @@
+.Navlink {
+  color: #000 !important;
+}
+.active {
+  color: black;
+}
 .main_row {
   /* background: #ffffff; */
   width: 100%;

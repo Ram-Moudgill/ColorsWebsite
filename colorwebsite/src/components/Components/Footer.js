@@ -1,33 +1,50 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import '../css/Footer.css'
-// import FacebookIcon from '@material-ui/icons/Facebook'
-// import TwitterIcon from '@material-ui/icons/Twitter'
-// import InstagramIcon from '@material-ui/icons/Instagram'
-// import GitHubIcon from '@material-ui/icons/GitHub'
-// import { IconButton } from '@material-ui/core'
 const Footer = () => {
   return (
     <>
       <div className='main_row row my-4 py-5'>
         <div className='col-md-11 mx-auto'>
           <div className='row d-flex  justify-content-between'>
-            <div className='col-md-2 '>
-              <p className='font-weight-bold footer_subheading'>Galary</p>
-              <p>Services</p>
-              <p>Gradients</p>
-              <p>Color Picker</p>
+            <div className='col-md-2'>
+              <p className='font-weight-bold footer_subheading'>Website</p>
+              <p>
+                <NavLink to='/'>Color Picker</NavLink>
+              </p>
+              <p>
+                <NavLink to='/Colors'>Colors</NavLink>
+              </p>
+              <p>
+                <NavLink to='/Gradients'>Gradients</NavLink>
+              </p>
+              <p>
+                <NavLink to='/TryColors'>Try Colors</NavLink>
+              </p>
             </div>
             <div className='col-md-2 '>
-              <p className=' font-weight-bold footer_subheading'>About</p>
-              <p>Blog</p>
-              <p>Contact</p>
-              <p>Journey</p>
+              <p className=' font-weight-bold footer_subheading'>Page</p>
+              <p>
+                <NavLink to='/'>Blog</NavLink>
+              </p>
+              <p>
+                <NavLink to='/'>Info</NavLink>
+              </p>
+              <p>
+                <NavLink to='/'>Resource</NavLink>
+              </p>
             </div>
             <div className='col-md-2 '>
-              <p className='font-weight-bold footer_subheading'>Plateforms</p>
-              <p>Github</p>
-              <p>Heroku</p>
-              <p>Netlify</p>
+              <p className='font-weight-bold footer_subheading'>Company</p>
+              <p>
+                <NavLink to='/'>Terms of service</NavLink>
+              </p>
+              <p>
+                <NavLink to='/'>Privacy Policy</NavLink>
+              </p>
+              <p>
+                <NavLink to='/'>Contact</NavLink>
+              </p>
             </div>
             <div className='col-md-4'>
               <p className='footer_subheading'>Newsletter</p>
