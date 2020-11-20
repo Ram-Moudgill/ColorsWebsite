@@ -11,14 +11,19 @@ import axios from 'axios'
 import Loading from '../Components/Loading'
 class Gradients extends Component {
   state = {
-    collection: [],
+    gradientcollection: [],
     loading: false,
   }
   async componentDidMount() {
+    console.log(this.state.gradientcollection)
     this.setState({ loading: true })
     const res = await axios.get('/api/gradients')
-    console.log(res.data.gradients)
-    this.setState({ collection: res.data.gradients, loading: false })
+    await this.setState({
+      gradientcollection: res.data.gradients,
+      loading: false,
+    })
+    console.log(this.state.gradientcollection)
+    // eslint-disable-next-line
   }
   render() {
     if (this.state.loading) {
@@ -30,7 +35,7 @@ class Gradients extends Component {
             <div className='col-md-10 mx-auto'>
               <h2>Gradient Palette</h2>
               <div className='row'>
-                {this.state.collection.map((bg) => (
+                {this.state.gradientcollection.map((bg) => (
                   <div className='col-lg-4 col-sm-6' key={bg._id}>
                     <Gradient bg={bg}></Gradient>
                   </div>

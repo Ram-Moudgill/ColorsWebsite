@@ -48,7 +48,7 @@ const Navbar = () => {
             <ul className='navbar-nav ml-auto'>
               <li className='nav-item'>
                 <NavLink
-                  style={{ color: mode ? '#0e2d4d' : '#fff' }}
+                  style={{ color: mode ? '#000' : '#fff' }}
                   exact
                   className='nav-link'
                   activeClassName='active'
@@ -59,7 +59,7 @@ const Navbar = () => {
               </li>
               <li className='nav-item'>
                 <NavLink
-                  style={{ color: mode ? '#0e2d4d' : '#fff' }}
+                  style={{ color: mode ? '#000' : '#fff' }}
                   exact
                   className='nav-link'
                   activeClassName='active'
@@ -70,7 +70,7 @@ const Navbar = () => {
               </li>
               <li className='nav-item'>
                 <NavLink
-                  style={{ color: mode ? '#0e2d4d' : '#fff' }}
+                  style={{ color: mode ? '#000' : '#fff' }}
                   exact
                   className='nav-link'
                   activeClassName='active'
@@ -81,7 +81,7 @@ const Navbar = () => {
               </li>
               <li className='nav-item'>
                 <NavLink
-                  style={{ color: mode ? '#0e2d4d' : '#fff' }}
+                  style={{ color: mode ? '#000' : '#fff' }}
                   exact
                   className='nav-link'
                   activeClassName='active'

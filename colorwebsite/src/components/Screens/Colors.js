@@ -10,10 +10,11 @@ class colors extends Component {
     loading: false,
   }
   async componentDidMount() {
+    console.log(this.state.collection.length)
     this.setState({ loading: true })
     const res = await axios.get('/api/colors')
-    console.log(res.data.colors)
     this.setState({ collection: res.data.colors, loading: false })
+    console.log(this.state.collection.length)
   }
   filterMethod = async (value) => {
     // console.log(value)
@@ -31,9 +32,9 @@ class colors extends Component {
         <>
           <Search filterMethod={this.filterMethod}></Search>
 
-          <div className='row mt-4 mx-0'>
+          <div className='row mt-4 mx-0' variant='top'>
             <div className='col-md-10 mx-auto'>
-              <h2>Color Palette</h2>
+              <h4 className='font-weight-light'>Colors</h4>
               <div className='row'>
                 {this.state.collection.map((co) => (
                   <div key={co._id} className='col-lg-4 col-sm-6'>

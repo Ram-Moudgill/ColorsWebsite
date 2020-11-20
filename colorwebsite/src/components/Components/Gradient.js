@@ -30,15 +30,11 @@ const Gradient = ({ bg }) => {
         <div className='car'>
           <CopyToClipboard text={bg.bg}>
             <IconButton onClick={CopytoClipBoard}>
-              <FileCopyIcon style={{ color: 'rgb(31, 38, 103)' }} />
+              <FileCopyIcon className='file__copyicon' />
               <span style={{ fontSize: 14 }}>{text}</span>
             </IconButton>
           </CopyToClipboard>
-          <IconButton
-            className='text-right'
-            onClick={showModal}
-            style={{ color: 'rgb(31, 38, 103)' }}
-          >
+          <IconButton className='text-right' onClick={showModal}>
             <i class='fas fa-expand-alt'></i>
           </IconButton>
         </div>

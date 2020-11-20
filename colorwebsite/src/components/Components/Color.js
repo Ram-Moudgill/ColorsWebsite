@@ -33,7 +33,7 @@ const Color = ({ co }) => {
         <div className='car'>
           <CopyToClipboard text={co.color}>
             <IconButton onClick={CopytoClipBoard}>
-              <FileCopyIcon style={{ color: 'rgb(31, 38, 103)' }} />
+              <FileCopyIcon className='file__copyicon' />
               <span style={{ fontSize: 14 }}>{text}</span>
             </IconButton>
           </CopyToClipboard>
@@ -49,7 +49,7 @@ const Color = ({ co }) => {
       {Show && (
         <div className='color_modal' style={{ background: co.color }}>
           <button className='btn close' onClick={closeModal}>
-            <i className='fa fa-times'></i>
+            <i className='fas fa-times'></i>
           </button>
         </div>
       )}

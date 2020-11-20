@@ -13,6 +13,9 @@ class Search extends Component {
     return (
       <Fragment>
         <div className='search__div d-flex justify-content-around  align-items-center'>
+          <span className='font-weight-bold text-muted'>
+            Filter <i class='fas fa-angle-right'></i>
+          </span>
           <button
             className='search_filter_input'
             style={{ background: 'red', color: 'red' }}
@@ -89,7 +92,7 @@ class Search extends Component {
           <button
             className='search_filter_input'
             style={{
-              background: 'white',
+              background: 'gray',
               color: 'white',
               border: '1px solid rgb(118 118 118 / 65%)',
             }}

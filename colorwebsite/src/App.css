@@ -21,7 +21,7 @@ html {
 body {
   font-family: 'Nunito', sans-serif !important;
   background: #fff;
-  color: #0e2d4d;
+  color: #000;
 }
 
 ::-webkit-scrollbar {
@@ -40,19 +40,6 @@ body {
   outline-width: 0 !important;
   border: none !important;
 }
-/* 
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background-color: #464960;
-}
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-} */
-
 .card {
   font-family: 'Poppins', sans-serif !important;
   height: 200px;
@@ -98,6 +85,7 @@ body {
   opacity: 0.9;
   height: 36px;
   min-width: 36px;
+  color: rgb(128, 128, 128);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,7 +99,7 @@ body {
   position: absolute;
   top: 15px;
   right: 25px;
-  font-size: 18px;
+  font-size: 14px;
 }
 .color_modal .close:hover {
   opacity: 2 !important;
@@ -121,6 +109,10 @@ button:focus {
   outline: none !important;
   outline: 0 auto -webkit-focus-ring-color !important;
   border: none !important;
+}
+.fas fa-times {
+  color: rgb(128, 128, 128);
+  font-size: 0.9rem;
 }
 .my_btn {
   border-radius: 5px;
@@ -132,15 +124,8 @@ button:focus {
 }
 .subheading {
   font-size: 1.1rem;
-  /* color: #000 !important; */
   font-weight: 600 !important;
 }
-/* @media (min-width: 576px) {
-  .color_modal {
-    max-width: 100% !important;
-    margin: 0rem auto !important;
-  }
-} */
 /* //loader css */
 .lds-ring {
   display: inline-block;
@@ -152,10 +137,10 @@ button:focus {
   box-sizing: border-box;
   display: block;
   position: absolute;
-  width: 64px;
-  height: 64px;
+  width: 50px;
+  height: 50px;
   margin: 8px;
-  border: 8px solid #e0172af2;
+  border: 5px solid #e0172af2;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   border-color: #e0172af2 transparent transparent transparent;
@@ -176,4 +161,19 @@ button:focus {
   100% {
     transform: rotate(360deg);
   }
+}
+/* //full screen button */
+.fa-expand-alt {
+  color: gray !important;
+  font-size: 1.3rem;
+}
+.fa-expand-alt {
+  color: gray !important;
+  font-size: 1rem;
+  transform: rotate(45deg);
+}
+/* //copy-icon */
+.file__copyicon {
+  color: rgb(128, 128, 128) !important;
+  font-size: 1.2rem !important;
 }
