@@ -19,6 +19,7 @@ class App extends Component {
     collection: [],
     gradientscollection: [],
     loading: false,
+    mode: true,
   }
   async componentDidMount() {
     console.log(this.state.collection.length)
@@ -38,14 +39,27 @@ class App extends Component {
     const newCollection = res.data.colors
     this.setState({ collection: newCollection, loading: false })
   }
+  changeMode = (modevalue) => {
+    this.setState({ mode: modevalue })
+    console.log(this.state.mode)
+  }
   render() {
     return (
       <>
         <BrowserRouter>
           <div className='container-fluid p-0 m-0'>
-            <Navbar />
+            <Navbar changeMode={this.changeMode} mode={this.state.mode} />
             <Switch>
-              <Route exact path='/' component={Colorpicker} />
+              <Route
+                exact
+                path='/'
+                render={(props) => (
+                  <>
+                    {' '}
+                    <Colorpicker mode={this.state.mode} />
+                  </>
+                )}
+              />
               <Route
                 exact
                 path='/colors'

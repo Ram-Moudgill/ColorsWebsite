@@ -22,7 +22,7 @@ const Gradient = ({ bg }) => {
   return (
     <>
       <div
-        className='card my-4'
+        className='card colorcard my-4'
         data-target={`#${bg._id}`}
         style={{ background: bg.bg }}
       >

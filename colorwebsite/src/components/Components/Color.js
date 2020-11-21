@@ -27,7 +27,7 @@ const Color = ({ co }) => {
 
   return (
     <>
-      <div className='card my-4' style={colorStyle}>
+      <div className='card  colorcard m-4' style={colorStyle}>
         <div className='car'>
           <CopyToClipboard text={co.color}>
             <IconButton onClick={CopytoClipBoard}>

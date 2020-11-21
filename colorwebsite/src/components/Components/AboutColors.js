@@ -5,7 +5,7 @@ const AboutColors = () => {
   return (
     <Fragment>
       <div className='row my-5'>
-        <div className='col-10 mx-auto p-4' style={{ background: '#EEEEEE' }}>
+        <div className='col-10 mx-auto p-4'>
           <div className='about_colors'>
             <h5 className='subheading text-center'>About this Website</h5>
             <h5>Introduction</h5>
@@ -34,14 +34,14 @@ const AboutColors = () => {
             <p className='about_colors_p'>
               Million Colors founded by
               <a href='https://manpreetchoudhary.github.io/' className='same'>
-                &nbsp;Manpreet Singh
+                &nbsp;Ram Moudgill
               </a>
               &nbsp;and
               <a
                 href='https://ram-moudgill.github.io/MyPortfolio/'
                 className='same'
               >
-                &nbsp;Ram Moudgill
+                &nbsp;Manpreet Singh
               </a>
               &nbsp;,designer and full stack web developer
             </p>

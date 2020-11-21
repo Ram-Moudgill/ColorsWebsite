@@ -14,6 +14,15 @@
   /* color: #000 !important; */
   font-weight: 600 !important;
 }
+/* .//footerlink */
+.footer__link {
+  color: rgb(128, 128, 128);
+  text-decoration: none;
+}
+.footer__link:hover {
+  text-decoration: none;
+}
+
 .input__design {
   border: none;
   padding: 0 5px;

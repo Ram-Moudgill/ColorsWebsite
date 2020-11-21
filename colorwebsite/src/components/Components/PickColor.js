@@ -1,15 +1,18 @@
 import React from 'react'
 import '../css/PickColor.css'
+import '../Components/CardSection'
 import { SketchPicker } from 'react-color'
+import CardSection from '../Components/CardSection'
+import AboutColors from './AboutColors'
 
 class PickColor extends React.Component {
   state = {
     // displayColorPicker: false,
     hex: '#E0172A',
     color: {
-      r: 224,
-      g: 23,
-      b: 42,
+      r: 11,
+      g: 250,
+      b: 220,
       a: 1,
     },
     hsla: '354,90%,48%,1.000',
@@ -95,7 +98,7 @@ class PickColor extends React.Component {
             />
           </div>
         </div>
-        <div className='col'>
+        <div className='col mb-5'>
           <div className='main-color'>
             <div
               className='colored__div'
@@ -136,6 +139,8 @@ class PickColor extends React.Component {
             </div>
           </div>
         </div>
+        <CardSection mode={this.props.mode}></CardSection>
+        <AboutColors></AboutColors>
       </>
     )
   }

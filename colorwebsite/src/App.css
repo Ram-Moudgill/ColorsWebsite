@@ -9,7 +9,6 @@
   --main-bg-color: #ffffff;
   --primary-color: #c91ce0;
   --primary-color1: #ff5757;
-  --text-color: #0e2d4d;
   --alternate-color: #f9002f;
   --muted-color: rgba(95, 93, 93, 0.212);
 }
@@ -20,7 +19,7 @@ html {
 
 body {
   font-family: 'Nunito', sans-serif !important;
-  background: #fff;
+  background: #ebebf3;
   color: #000;
 }
 
@@ -40,7 +39,7 @@ body {
   outline-width: 0 !important;
   border: none !important;
 }
-.card {
+.colorcard {
   font-family: 'Poppins', sans-serif !important;
   height: 200px;
   border: transparent !important;
@@ -126,7 +125,6 @@ button:focus {
   font-size: 1.1rem;
   font-weight: 600 !important;
 }
-/* //loader css */
 .lds-ring {
   display: inline-block;
   position: relative;
@@ -162,18 +160,24 @@ button:focus {
     transform: rotate(360deg);
   }
 }
-/* //full screen button */
 .fa-expand-alt {
-  color: gray !important;
+  color: #808080 !important;
   font-size: 1.3rem;
 }
 .fa-expand-alt {
-  color: gray !important;
+  color: #808080 !important;
   font-size: 1rem;
   transform: rotate(45deg);
 }
 /* //copy-icon */
 .file__copyicon {
-  color: rgb(128, 128, 128) !important;
+  color: #808080 !important;
   font-size: 1.2rem !important;
+}
+/* //card__icon
+ */
+.card__icon {
+  color: #0bfadc;
+  font-size: 2.5rem;
+  font-weight: 600;
 }

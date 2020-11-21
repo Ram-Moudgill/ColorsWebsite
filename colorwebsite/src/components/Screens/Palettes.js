@@ -1,6 +1,6 @@
 import React from 'react'
-import '../css/Trycolors.css'
-function Trycolors() {
+import '../css/Palettes.css'
+function Palettes() {
   return (
     <div>
       color
@@ -18,9 +18,8 @@ function Trycolors() {
           <span aria-hidden='true'>&times;</span>
         </button>
       </div>
-      hhhhhh
     </div>
   )
 }
 
-export default Trycolors
+export default Palettes

@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../css/Footer.css'
 const Footer = () => {
   return (
@@ -10,49 +10,65 @@ const Footer = () => {
             <div className='col-md-2'>
               <p className='font-weight-bold footer_subheading'>Website</p>
               <p>
-                <NavLink to='/'>Color Picker</NavLink>
+                <Link to='/' className='footer__link'>
+                  Color Picker
+                </Link>
               </p>
               <p>
-                <NavLink to='/Colors'>Colors</NavLink>
+                <Link to='/Colors' className='footer__link'>
+                  Colors
+                </Link>
               </p>
               <p>
-                <NavLink to='/Gradients'>Gradients</NavLink>
+                <Link to='/Gradients' className='footer__link'>
+                  Gradients
+                </Link>
               </p>
               <p>
-                <NavLink to='/TryColors'>Try Colors</NavLink>
+                <Link to='/TryColors' className='footer__link'>
+                  Try Colors
+                </Link>
               </p>
             </div>
             <div className='col-md-2 '>
               <p className=' font-weight-bold footer_subheading'>Page</p>
               <p>
-                <NavLink to='/'>Blog</NavLink>
+                <Link to='/' className='footer__link'>
+                  Blog
+                </Link>
               </p>
               <p>
-                <NavLink to='/'>Info</NavLink>
+                <Link to='/' className='footer__link'>
+                  Info
+                </Link>
               </p>
               <p>
-                <NavLink to='/'>Resource</NavLink>
+                <Link to='/' className='footer__link'>
+                  Resource
+                </Link>
               </p>
             </div>
             <div className='col-md-2 '>
               <p className='font-weight-bold footer_subheading'>Company</p>
               <p>
-                <NavLink to='/'>Terms of service</NavLink>
+                <Link to='/' className='footer__link'>
+                  Terms of service
+                </Link>
               </p>
               <p>
-                <NavLink to='/'>Privacy Policy</NavLink>
+                <Link to='/' className='footer__link'>
+                  Privacy Policy
+                </Link>
               </p>
               <p>
-                <NavLink to='/'>Contact</NavLink>
+                <Link to='/' className='footer__link'>
+                  Contact
+                </Link>
               </p>
             </div>
             <div className='col-md-4'>
-              <p className='footer_subheading'>Newsletter</p>
-              <p>
-                {' '}
-                Subscribe to our Newsletter to get your weekly dose of
-                news,updates,tips and special offers
-              </p>
+              <p className='footer_subheading'>Feedback</p>
+              <p> Share your expierence with Million Colors</p>
               <div className='input_div'>
                 <i className='far fa-envelope'></i>{' '}
                 <input

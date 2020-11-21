@@ -12,7 +12,7 @@ const colors = ({ collection, loading }) => {
             <h4 className='font-weight-light'>Colors</h4>
             <div className='row'>
               {collection.map((co) => (
-                <div key={co._id} className='col-lg-4 col-sm-6'>
+                <div key={co._id} className='col-lg-4  col-sm-6'>
                   <Color co={co}></Color>
                 </div>
               ))}

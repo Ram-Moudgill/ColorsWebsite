@@ -7,8 +7,7 @@ export class Colorpicker extends Component {
     return (
       <>
         <div className='row m-5'>
-          <PickColor></PickColor>
-          <AboutColors></AboutColors>
+          <PickColor mode={this.props.mode}></PickColor>
         </div>
       </>
     )
