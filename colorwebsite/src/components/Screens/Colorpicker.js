@@ -6,7 +6,7 @@ export class Colorpicker extends Component {
   render() {
     return (
       <>
-        <div className='row m-5'>
+        <div className='row' style={{ marginTop: '140px' }}>
           <PickColor mode={this.props.mode}></PickColor>
         </div>
       </>

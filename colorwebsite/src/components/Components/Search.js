@@ -12,7 +12,10 @@ class Search extends Component {
   render() {
     return (
       <Fragment>
-        <div className='search__div d-flex justify-content-around  align-items-center'>
+        <div
+          className='search__div d-flex  justify-content-around  align-items-center'
+          style={{ marginTop: '88px' }}
+        >
           <span className='font-weight-bold text-muted'>
             Filter <i className='fas fa-angle-right'></i>
           </span>

@@ -7,7 +7,7 @@ const Gradients = ({ gradientcollection, loading }) => {
   } else {
     return (
       <>
-        <div className='row mt-4 p-0 mx-0'>
+        <div className='row  p-0 mx-0' style={{ marginTop: '88px' }}>
           <div className='col-md-10 mx-auto'>
             <h2>Gradient Palette</h2>
             <div className='row'>

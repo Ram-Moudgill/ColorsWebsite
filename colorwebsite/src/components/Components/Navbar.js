@@ -13,9 +13,13 @@ class Navbar extends Component {
     if (this.state.newmode === true) {
       await this.setState({ newmode: false })
       this.props.changeMode(this.state.newmode)
+      document.body.style.background = '#000'
+      document.body.style.color = '#fff'
     } else {
       await this.setState({ newmode: true })
       this.props.changeMode(this.state.newmode)
+      document.body.style.background = '#fff'
+      document.body.style.color = '#000'
     }
   }
   render() {
@@ -87,7 +91,7 @@ class Navbar extends Component {
                     exact
                     className='nav-link'
                     activeClassName='active'
-                    to='/trycolors'
+                    to='/palettes'
                   >
                     Palettes
                   </NavLink>

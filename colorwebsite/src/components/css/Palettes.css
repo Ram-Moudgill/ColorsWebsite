@@ -1,0 +1,11 @@
+.palette_div {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  border: 2px solid;
+  margin: 25px 0;
+}
+.palette_div_item {
+  height: 100%;
+  width: 100%;
+}

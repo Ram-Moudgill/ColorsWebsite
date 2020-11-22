@@ -7,17 +7,18 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import '../node_modules/jquery/dist/jquery.slim'
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Colorpicker from './components/Screens/Colorpicker'
-import Combinations from './components/Screens/Combinations'
 import Gradients from './components/Screens/Gradients'
 import Navbar from './components/Components/Navbar'
-import Trycolors from './components/Screens/Trycolors'
+import Trycolors from './components/Screens/Palettes'
 import Footer from './components/Components/Footer'
 import axios from 'axios'
+import Palettediv from './components/Components/Palettediv'
 
 class App extends Component {
   state = {
     collection: [],
     gradientscollection: [],
+    palettescollection: [],
     loading: false,
     mode: true,
   }
@@ -29,6 +30,11 @@ class App extends Component {
     const gradientsres = await axios.get('/api/gradients')
     this.setState({
       gradientscollection: gradientsres.data.gradients,
+      loading: false,
+    })
+    const palettesres = await axios.get('/api/palettes')
+    this.setState({
+      palettescollection: palettesres.data.palettes,
       loading: false,
     })
   }
@@ -85,12 +91,22 @@ class App extends Component {
                   </>
                 )}
               />
+              <Route exact path='/palettes' render={(props)=>(<>
+                <div className="left  p-4">
+                {this.state.palettescollection.map((item) => (
+                <Palettediv key={item._id} item={item} className='col-lg-4  col-sm-6'>
 
-              <Route exact path='/combinations' component={Combinations} />
-              <Route exact path='/trycolors' component={Trycolors} />
+                </Palettediv>
+              ))}
+
+                </div>
+                <div className="right bg-danger">
+                hello
+               
+                </div>
+              </>)} />
               <Redirect to='/' />
             </Switch>
-            <Footer />
           </div>
         </BrowserRouter>
       </>
