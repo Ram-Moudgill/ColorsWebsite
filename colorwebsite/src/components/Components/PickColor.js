@@ -7,7 +7,6 @@ import AboutColors from './AboutColors'
 
 class PickColor extends React.Component {
   state = {
-    // displayColorPicker: false,
     hex: '#E0172A',
     color: {
       r: 11,

@@ -15,7 +15,8 @@ export class Palettediv extends Component {
       color3: color3,
       color4: color4,
     })
-    console.log(this.state)
+    this.props.temppalette(color1, color2, color3, color4)
+    // console.log(this.state)
   }
   render() {
     return (

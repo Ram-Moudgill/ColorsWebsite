@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '../css/Colorpicker.css'
-import AboutColors from '../Components/AboutColors'
 import PickColor from '../Components/PickColor'
 export class Colorpicker extends Component {
   render() {

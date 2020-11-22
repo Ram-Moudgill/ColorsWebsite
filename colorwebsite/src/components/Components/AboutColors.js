@@ -32,16 +32,16 @@ const AboutColors = () => {
 
             <h5 className='mt-4'>Who founded Million Colors?</h5>
             <p className='about_colors_p'>
-              Million Colors founded by
-              <a href='https://manpreetchoudhary.github.io/' className='same'>
-                &nbsp;Ram Moudgill
-              </a>
-              &nbsp;and
+              Million Colors founded by &nbsp;
               <a
                 href='https://ram-moudgill.github.io/MyPortfolio/'
                 className='same'
               >
                 &nbsp;Manpreet Singh
+              </a>{' '}
+              and
+              <a href='https://manpreetchoudhary.github.io/' className='same'>
+                &nbsp;Ram Moudgill
               </a>
               &nbsp;,designer and full stack web developer
             </p>
