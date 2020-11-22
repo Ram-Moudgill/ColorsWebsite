@@ -1,11 +1,17 @@
 .palette_div {
   display: flex;
-  height: 70px;
   width: 100%;
-  border: 2px solid;
+  /* height: 100%; */
+  border: 3px solid;
+  padding: 8px;
   margin: 25px 0;
+  justify-content: center;
 }
 .palette_div_item {
-  height: 100%;
-  width: 100%;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #000;
+  border-radius: 30px;
+  background-color: #fff;
+  cursor: pointer;
 }

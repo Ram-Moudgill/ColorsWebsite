@@ -4,7 +4,7 @@ import '../css/About.css'
 const AboutColors = () => {
   return (
     <Fragment>
-      <div className='row my-5'>
+      <div className='row my-5 mx-0'>
         <div className='col-10 mx-auto p-4'>
           <div className='about_colors'>
             <h5 className='subheading text-center'>About this Website</h5>

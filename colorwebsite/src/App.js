@@ -22,12 +22,12 @@ class App extends Component {
     palettescollection: [],
     loading: false,
     mode: true,
-    palettefortemp:{
-      color1:'',
-      color2:'',
-      color3:'',
-      color4:'',
-    }
+    palettefortemp: {
+      color1: '',
+      color2: '',
+      color3: '',
+      color4: '',
+    },
   }
   async componentDidMount() {
     console.log(this.state.collection.length)
@@ -56,11 +56,11 @@ class App extends Component {
     this.setState({ mode: modevalue })
     console.log(this.state.mode)
   }
-  temppalette=(color1,color2,color3,color4)=>{
+  temppalette = (color1, color2, color3, color4) => {
     this.setState({
-      palettefortemp:{color1,color2,color3,color4}
+      palettefortemp: { color1, color2, color3, color4 },
     })
-    console.log(this.state.palettefortemp);
+    console.log(this.state.palettefortemp)
   }
   render() {
     return (
@@ -104,19 +104,30 @@ class App extends Component {
                   </>
                 )}
               />
-              <Route exact path='/palettes' render={(props)=>(<>
-                <div className="left  p-4">
-                {this.state.palettescollection.map((item) => (
-                <Palettediv key={item._id} item={item} temppalette={this.temppalette}>
-
-                </Palettediv>
-              ))}
-
-                </div>
-                <div className="right ">
-                <Maintemp palettefortemp={this.state.palettefortemp}></Maintemp>
-                </div>
-              </>)} />
+              <Route
+                exact
+                path='/palettes'
+                render={(props) => (
+                  <>
+                    <div className='row mx-0 '>
+                      <div className='col-md-2 left  p-4'>
+                        {this.state.palettescollection.map((item) => (
+                          <Palettediv
+                            key={item._id}
+                            item={item}
+                            temppalette={this.temppalette}
+                          ></Palettediv>
+                        ))}
+                      </div>
+                      <div className='col-md-10 right '>
+                        <Maintemp
+                          palettefortemp={this.state.palettefortemp}
+                        ></Maintemp>
+                      </div>
+                    </div>
+                  </>
+                )}
+              />
               <Redirect to='/' />
             </Switch>
           </div>

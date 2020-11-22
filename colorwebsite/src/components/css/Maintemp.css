@@ -1,0 +1,38 @@
+body {
+  /* background-color: red; */
+}
+.custom-shape-divider-bottom-1606045216 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  height: 60vh;
+  background-color: rebeccapurple;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1606045216 svg {
+  position: relative;
+  display: block;
+  width: calc(137% + 1.3px);
+  height: 106px;
+}
+
+.custom-shape-divider-bottom-1606045216 .shape-fill {
+  fill: #ffffff;
+}
+.navbar_style {
+  z-index: 100;
+}
+.navbar_style .navbar-brand {
+  color: #ffffff;
+}
+.navbar_style .nav-link {
+  color: #ffffff;
+}
+.fa-bars {
+  color: #ffffff;
+}

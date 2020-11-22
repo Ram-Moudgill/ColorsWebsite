@@ -22,14 +22,14 @@ export class Palettediv extends Component {
     return (
       <>
         <div className='palette_div' onClick={this.clicker}>
-          <input
+          <div
             className='palette_div_item'
             style={{ background: this.props.item.color1 }}
-          ></input>
-          <input
+          ></div>
+          <div
             className='palette_div_item'
             style={{ background: this.props.item.color2 }}
-          ></input>
+          ></div>
           <div
             className='palette_div_item'
             style={{ background: this.props.item.color3 }}
