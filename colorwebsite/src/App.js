@@ -94,7 +94,6 @@ class App extends Component {
                       collection={this.state.collection}
                       loading={this.state.loading}
                     ></Colors>
-                    <Footer />
                   </>
                 )}
               />
@@ -107,7 +106,6 @@ class App extends Component {
                       gradientcollection={this.state.gradientscollection}
                       loading={this.state.loading}
                     ></Gradients>
-                    <Footer />
                   </>
                 )}
               />
@@ -116,7 +114,7 @@ class App extends Component {
                 path='/palettes'
                 render={(props) => (
                   <>
-                    <div className='left  p-4'>
+                    <div className='left  p-xl-4 p-0'>
                       {this.state.palettescollection.map((item) => (
                         <Palettediv
                           key={item._id}
@@ -130,6 +128,7 @@ class App extends Component {
                         palettefortemp={this.state.palettefortemp}
                         sidebarstatus={this.sidebarstatus}
                       ></Maintemp>
+                      <Footer />
                     </div>
                   </>
                 )}

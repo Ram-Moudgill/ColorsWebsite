@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../css/Maintemp.css'
 import Avatar from '../Screens/Avatar'
@@ -8,10 +8,19 @@ import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined'
 import { IconButton } from '@material-ui/core'
 import Palettediv from '../Components/Palettediv'
 import Footer from '../Components/Footer'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
 
 const Maintemp = ({ palettefortemp, sidebarstatus }) => {
   const { color1, color2, color3, color4 } = palettefortemp
+  const [text, setText] = useState('')
   sidebarstatus()
+
+  function CopytoClipBoard() {
+    setText('Copied!')
+    setTimeout(() => {
+      setText('')
+    }, 700)
+  }
   return (
     <>
       <div className='row p-0 m-0'>
@@ -66,10 +75,11 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
           </nav>
           <div className='text-center'>
             <h1
-              className=' mt-5 '
+              className=''
               style={{
                 color: color3 ? color3 : '#000',
                 zIndex: '100',
+                marginTop: 75,
                 fontWeight: 900,
                 fontSize: '1.8rem',
                 lineHeight: ' 35.3px',
@@ -118,16 +128,98 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
         <div className='col-md-12 text-center'>
           <Avatar color1={color1} />
         </div>
-        <h1
-          className=' text-center w-100'
-          style={{
-            color: color3 ? color3 : '#000',
-            zIndex: '100',
-            fontWeight: 900,
-          }}
-        >
-          This Schema
-        </h1>
+
+        <div className='col-md-12 copy_btn'>
+          <h1
+            className=' text-left'
+            style={{
+              color: color3 ? color3 : '#000',
+              zIndex: '100',
+              fontWeight: 900,
+            }}
+          >
+            This sections hues
+          </h1>
+          <p
+            className='text-muted'
+            style={{
+              color: color3 ? color3 : '#000',
+              fontWeight: 900,
+              lineHeight: 0,
+            }}
+          >
+            Click to copy the hex code to your clipboard
+          </p>
+          <h5
+            className='pt-3'
+            style={{ color: color3 ? color3 : '#000', fontWeight: 900 }}
+          >
+            Elements
+          </h5>
+          <div className='main_btn'>
+            <CopyToClipboard text={{ color1 }}>
+              <div
+                className='background'
+                onClick={CopytoClipBoard}
+                style={{ color: color3 ? color3 : '#000' }}
+              >
+                Background
+                <span
+                  style={{
+                    fontSize: 14,
+                    position: 'absolute',
+                    right: 15,
+                    top: 13,
+                  }}
+                >
+                  {text}
+                </span>
+              </div>
+            </CopyToClipboard>
+            <div
+              className='heading'
+              style={{ color: color3 ? color3 : '#000' }}
+            >
+              Heading
+            </div>
+          </div>
+          <div className='main_btn'>
+            <div
+              className='Paragraph'
+              style={{ color: color3 ? color3 : '#000' }}
+            >
+              Paragraph
+            </div>
+            <div className='Button' style={{ color: color3 ? color3 : '#000' }}>
+              Button
+            </div>
+          </div>
+          <h5
+            className='pt-3'
+            style={{ color: color3 ? color3 : '#000', fontWeight: 900 }}
+          >
+            Illustrator
+          </h5>
+          <div className='main_btn'>
+            <div className='stroke' style={{ color: color3 ? color3 : '#000' }}>
+              Stroke
+            </div>
+            <div className='Main' style={{ color: color3 ? color3 : '#000' }}>
+              Main
+            </div>
+          </div>
+          <div className='main_btn'>
+            <div className='fill' style={{ color: color3 ? color3 : '#000' }}>
+              Fill
+            </div>
+            <div
+              className='highlight'
+              style={{ color: color3 ? color3 : '#000' }}
+            >
+              Highlight
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )
