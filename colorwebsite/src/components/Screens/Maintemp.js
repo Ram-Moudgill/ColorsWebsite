@@ -2,20 +2,106 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../css/Maintemp.css'
 import Avatar from '../Screens/Avatar'
+import PropTypes from 'prop-types'
+import GroupOutlinedIcon from '@material-ui/icons/GroupOutlined'
+import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined'
+import { IconButton } from '@material-ui/core'
+import Palettediv from '../Components/Palettediv'
+import Footer from '../Components/Footer'
 
-const Maintemp = ({ palettefortemp }) => {
+const Maintemp = ({ palettefortemp, sidebarstatus }) => {
   const { color1, color2, color3, color4 } = palettefortemp
-  console.log(color1)
+  sidebarstatus()
   return (
     <>
       <div className='row p-0 m-0'>
         <div className=' col-12 mx-auto'>
-          <nav class='navbar navbar_style navbar-expand-lg  '>
-            <a class='navbar-brand' href='#'>
-              Colors
+          <nav
+            class='navbar navbar_style navbar-expand-lg'
+            style={{
+              background: color1 ? color1 : 'yellow',
+              color: color3 ? color3 : '#000',
+            }}
+          >
+            <IconButton onClick={sidebarstatus}>
+              {' '}
+              <i
+                class='fas fa-bars'
+                aria-hidden='true'
+                style={{
+                  color: color3 ? color3 : '#000',
+                }}
+              ></i>
+            </IconButton>
+
+            <a
+              class='navbar-brand'
+              href='#'
+              style={{
+                color: color3 ? color3 : '#000',
+              }}
+            >
+              Million Colors
             </a>
+            <div className='ml-auto'>
+              <a
+                class='navbar-brand '
+                href='#'
+                style={{
+                  color: color3 ? color3 : '#000',
+                }}
+              >
+                <HomeOutlinedIcon></HomeOutlinedIcon>
+              </a>
+              <a
+                class='navbar-brand '
+                href='#'
+                style={{
+                  color: color3 ? color3 : '#000',
+                }}
+              >
+                <GroupOutlinedIcon></GroupOutlinedIcon>
+              </a>
+            </div>
           </nav>
-          <div class='custom-shape-divider-bottom-1606045216'>
+          <div className='text-center'>
+            <h1
+              className=' mt-5 '
+              style={{
+                color: color3 ? color3 : '#000',
+                zIndex: '100',
+                fontWeight: 900,
+                fontSize: '1.8rem',
+                lineHeight: ' 35.3px',
+                wordSpacing: '3px',
+              }}
+            >
+              We Provide the Best Color Schemas <br></br>
+              For Your Brands and Designs
+            </h1>
+            <p
+              style={{
+                color: color3 ? color3 : '#000',
+                opacity: '0.6',
+              }}
+            >
+              Get largest collection of Colors,Gradients and Palettes on one
+              place
+            </p>
+            <button
+              className='temp_btn mt-2'
+              style={{
+                color: color3 ? color3 : '#000',
+                background: color1,
+              }}
+            >
+              Get Started
+            </button>
+          </div>
+          <div
+            class='custom-shape-divider-bottom-1606045216'
+            style={{ background: color1 ? color1 : 'yellow' }}
+          >
             <svg
               data-name='Layer 1'
               xmlns='http://www.w3.org/2000/svg'
@@ -29,28 +115,24 @@ const Maintemp = ({ palettefortemp }) => {
             </svg>
           </div>
         </div>
-
-        <div className='col-md-12 main-flex'>
-          <h2 style={{ color: color1 }}>Basic template</h2>
-          <p style={{ color: color2 }}>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at it's layout. The
-            point of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters.
-          </p>
-          <div className='btnBtn'>
-            <button className='btn btn-primary' style={{ background: color3 }}>
-              Try Yourself
-            </button>
-          </div>
-        </div>
-
         <div className='col-md-12 text-center'>
-          <Avatar palettefortemp={palettefortemp} />
+          <Avatar color1={color1} />
         </div>
+        <h1
+          className=' text-center w-100'
+          style={{
+            color: color3 ? color3 : '#000',
+            zIndex: '100',
+            fontWeight: 900,
+          }}
+        >
+          This Schema
+        </h1>
       </div>
     </>
   )
 }
-
+// Maintemp.defaultProps={
+//   color1:'red'
+// }
 export default Maintemp

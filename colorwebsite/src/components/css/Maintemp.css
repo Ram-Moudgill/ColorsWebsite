@@ -1,17 +1,14 @@
-body {
-  /* background-color: red; */
-}
 .custom-shape-divider-bottom-1606045216 {
   position: absolute;
   bottom: 0;
   left: 0;
   top: 0;
-  height: 60vh;
-  background-color: rebeccapurple;
+  height: 70vh;
   width: 100%;
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  z-index: -1;
 }
 
 .custom-shape-divider-bottom-1606045216 svg {
@@ -26,13 +23,23 @@ body {
 }
 .navbar_style {
   z-index: 100;
+  /* box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.15), */
+  /* 0 1px 2px 0 rgba(60, 64, 67, 0.3); */
+  border-radius: 7px;
+  margin-top: 5px;
 }
-.navbar_style .navbar-brand {
+/* .navbar_style .navbar-brand {
   color: #ffffff;
-}
-.navbar_style .nav-link {
+} */
+/* .navbar_style .nav-link {
   color: #ffffff;
-}
-.fa-bars {
-  color: #ffffff;
+} */
+/*    */
+.temp_btn {
+  z-index: 1000;
+  padding: 5px 12px;
+  border-radius: 21px;
+  border: none;
+  box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.15),
+    0 1px 2px 0 rgba(60, 64, 67, 0.3);
 }

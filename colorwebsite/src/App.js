@@ -22,6 +22,7 @@ class App extends Component {
     palettescollection: [],
     loading: false,
     mode: true,
+    sidebarstatus: true,
     palettefortemp: {
       color1: '',
       color2: '',
@@ -62,6 +63,9 @@ class App extends Component {
     })
     console.log(this.state.palettefortemp)
   }
+  sidebarstatus = () => {
+    console.log('hello')
+  }
   render() {
     return (
       <>
@@ -76,6 +80,7 @@ class App extends Component {
                   <>
                     {' '}
                     <Colorpicker mode={this.state.mode} />
+                    <Footer />
                   </>
                 )}
               />
@@ -89,6 +94,7 @@ class App extends Component {
                       collection={this.state.collection}
                       loading={this.state.loading}
                     ></Colors>
+                    <Footer />
                   </>
                 )}
               />
@@ -101,6 +107,7 @@ class App extends Component {
                       gradientcollection={this.state.gradientscollection}
                       loading={this.state.loading}
                     ></Gradients>
+                    <Footer />
                   </>
                 )}
               />
@@ -109,21 +116,20 @@ class App extends Component {
                 path='/palettes'
                 render={(props) => (
                   <>
-                    <div className='row mx-0 '>
-                      <div className='col-md-2 left  p-4'>
-                        {this.state.palettescollection.map((item) => (
-                          <Palettediv
-                            key={item._id}
-                            item={item}
-                            temppalette={this.temppalette}
-                          ></Palettediv>
-                        ))}
-                      </div>
-                      <div className='col-md-10 right '>
-                        <Maintemp
-                          palettefortemp={this.state.palettefortemp}
-                        ></Maintemp>
-                      </div>
+                    <div className='left  p-4'>
+                      {this.state.palettescollection.map((item) => (
+                        <Palettediv
+                          key={item._id}
+                          item={item}
+                          temppalette={this.temppalette}
+                        ></Palettediv>
+                      ))}
+                    </div>
+                    <div className='right '>
+                      <Maintemp
+                        palettefortemp={this.state.palettefortemp}
+                        sidebarstatus={this.sidebarstatus}
+                      ></Maintemp>
                     </div>
                   </>
                 )}

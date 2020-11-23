@@ -37,11 +37,11 @@ const AboutColors = () => {
                 href='https://ram-moudgill.github.io/MyPortfolio/'
                 className='same'
               >
-                &nbsp;Manpreet Singh
+                &nbsp;Ram Moudgill
               </a>{' '}
               and
               <a href='https://manpreetchoudhary.github.io/' className='same'>
-                &nbsp;Ram Moudgill
+                &nbsp;Manpreet Singh
               </a>
               &nbsp;,designer and full stack web developer
             </p>

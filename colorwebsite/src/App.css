@@ -184,12 +184,19 @@ button:focus {
 /* //palette csss
  */
 .left {
+  position: fixed;
   height: 90vh;
   top: 10vh;
+  width: 18%;
+  left: 0;
   overflow-y: scroll;
 }
 
 .right {
+  position: absolute;
+  right: 0;
   top: 10vh;
-  padding: 25px;
+  display: block;
+  width: 82%;
+  margin-left: 18%;
 }
