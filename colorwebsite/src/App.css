@@ -199,6 +199,7 @@ button:focus {
   display: block;
   width: 82%;
   margin-left: 18%;
+  overflow: hidden;
 }
 @media (max-width: 1200px) {
   .left {
@@ -212,8 +213,7 @@ button:focus {
     overflow-x: scroll;
     overflow-y: auto;
     z-index: 999;
-    background-color: pink;
-    border: 2px solid;
+    background: rgb(248, 242, 242);
   }
   .left::-webkit-scrollbar {
     width: 10px;
@@ -232,10 +232,12 @@ button:focus {
     width: 100%;
   }
   .palette_div {
-    margin: 10px 10px !important;
+    margin: 10px 16px !important;
     padding: 0 !important;
+    justify-content: space-around;
   }
   .palette_div_item {
-    width: 35px !important;
+    height: 20px;
+    width: 24px !important;
   }
 }

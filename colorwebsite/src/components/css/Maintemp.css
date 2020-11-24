@@ -16,17 +16,13 @@
   display: block;
   width: calc(137% + 1.3px);
   height: 106px;
+  z-index: 999;
 }
 
 .custom-shape-divider-bottom-1606045216 .shape-fill {
-  fill: #ffffff;
+  z-index: 10000;
 }
 .navbar_style {
-  z-index: 100;
-  border-radius: 7px;
-  margin-top: 5px;
-  position: fixed;
-  top: 59px;
   width: 100%;
 }
 .copy_btn {
@@ -64,4 +60,17 @@
   .navbar_style {
     z-index: 0;
   }
+}
+.temp_cardicon {
+  /* background: linear-gradient(296deg, #ff0a21f2 0%, #d53 99%); */
+  padding: 7px;
+  color: #fff;
+  box-shadow: 0 1px 3px 3px rgba(60, 64, 67, 0.15), 0 1px 2px 0 rgb(255 255 255);
+  border-radius: 50%;
+  font-size: 46px !important;
+}
+.our_teamimg {
+  height: 148px;
+  width: 158px;
+  border-radius: 50%;
 }
