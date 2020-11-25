@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, { Component } from 'react'
 import '../css/Navbar.css'
 import { NavLink } from 'react-router-dom'
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded'

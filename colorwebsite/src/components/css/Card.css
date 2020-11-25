@@ -1,0 +1,9 @@
+.card2 {
+  font-family: 'Poppins', sans-serif !important;
+  height: 38vh;
+}
+.card2:hover {
+  transition: all 0.5s ease-in !important;
+  background-color: #e72d3c !important;
+  color: #fff !important;
+}

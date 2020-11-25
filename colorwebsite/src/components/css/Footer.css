@@ -26,6 +26,7 @@
 .input__design {
   border: none;
   padding: 0 5px;
+  font-size: 0.7rem;
 }
 .input__design:focus {
   outline: none;

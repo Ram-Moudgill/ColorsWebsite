@@ -9,6 +9,7 @@ class Search extends Component {
     await this.setState({ searchColor: e.target.value })
     await this.props.filterMethod(this.state.searchColor)
   }
+
   render() {
     return (
       <Fragment>

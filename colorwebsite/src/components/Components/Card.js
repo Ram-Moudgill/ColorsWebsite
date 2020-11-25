@@ -1,11 +1,11 @@
 import React from 'react'
-
+import '../css/Card.css'
 const Card = ({ iconClass, cardTitle, CardDescription, mode }) => {
   return (
     <>
-      <div className='col-md-4 my-4'>
+      <div className='col-lg-4  col-md-6 my-4'>
         <div
-          className='card '
+          className='card card2'
           style={{
             background: mode ? '#fff' : '#333333',
             color: mode ? '#333333' : '#fff',

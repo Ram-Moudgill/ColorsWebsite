@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Avatar = ({ color1 }) => {
   const style = {
     marginTop: '-20px',
@@ -44,73 +43,73 @@ const Avatar = ({ color1 }) => {
               id='Vector_5'
               d='M57 283.84C57 283.84 84.11 311.84 91.25 326.38C99.45 343.09 105.6 362.62 107.85 378.66'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_6'
               d='M85.52 316.98L86.57 288.05'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_7'
               d='M91.24 326.38L101.62 301.28'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_8'
               d='M89.13 322.96L62.76 319.83'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_9'
               d='M97.24 339.64L111.05 321'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_10'
               d='M94.64 334.09L75.04 335.54'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_11'
               d='M99.59 347.99L84.62 349.83'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_12'
               d='M103.42 356.81L110.58 345.42'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_13'
               d='M104.34 360.75L86.71 361.33'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_14'
@@ -127,73 +126,73 @@ const Avatar = ({ color1 }) => {
               id='Vector_16'
               d='M425.48 175.58C425.48 175.58 425.28 225.12 418.85 244.69C411.47 267.18 399.72 290.4 387.52 306.99'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_17'
               d='M422 231.07L448.65 205.69'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_18'
               d='M418.85 244.69L450.59 231.09'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_19'
               d='M419.97 239.71L398.76 213.44'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_20'
               d='M412.54 262.08L441.65 257.39'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_21'
               d='M415.1 254.73L395.98 238.65'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_22'
               d='M407.25 271.77L392 260.15'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_23'
               d='M402.91 283.19L419.53 279.19'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_24'
               d='M400.25 287.59L383.69 272.46'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_25'
@@ -210,73 +209,73 @@ const Avatar = ({ color1 }) => {
               id='Vector_27'
               d='M258.06 185.51C258.06 185.51 272.06 211.78 274.27 223.97C276.78 237.97 277.19 253.62 275.47 265.88'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_28'
               d='M272.05 215.86L278.9 194.83'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_29'
               d='M274.27 223.97L287.18 207.71'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_30'
               d='M273.44 221.02L254.72 213.17'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_31'
               d='M275.89 234.98L289.96 224.19'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_32'
               d='M275.15 230.35L260.44 227.3'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_33'
               d='M275.86 241.61L264.47 239.81'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_34'
               d='M276.82 248.9L284.47 242.03'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_35'
               d='M276.67 251.98L263.59 248.7'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_36'
@@ -293,73 +292,73 @@ const Avatar = ({ color1 }) => {
               id='Vector_38'
               d='M50.37 390.05C50.37 390.05 74.45 390.21 83.95 393.37C94.7376 396.935 104.931 402.096 114.19 408.68'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_39'
               d='M77.33 391.81L65.03 378.83'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_40'
               d='M83.95 393.37L77.38 377.92'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_41'
               d='M81.54 392.81L68.74 403.09'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_42'
               d='M92.4 396.46L90.16 382.3'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_43'
               d='M88.83 395.2L80.98 404.47'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_44'
               d='M97.1 399.04L91.43 406.44'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_45'
               d='M102.65 401.17L100.72 393.08'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_46'
               d='M104.78 402.47L97.4 410.5'
               stroke='#08ABFF'
-              stroke-width='1.25197'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.25197'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
           </g>
           <g id='freepik  device 2  inject 72'>
@@ -368,104 +367,104 @@ const Avatar = ({ color1 }) => {
               d='M395.72 235.72H108.71C103.988 235.72 100.16 239.548 100.16 244.27V425.14C100.16 429.862 103.988 433.69 108.71 433.69H395.72C400.442 433.69 404.27 429.862 404.27 425.14V244.27C404.27 239.548 400.442 235.72 395.72 235.72Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_48'
               d='M377.98 257.87H100.16V411.54H377.98V257.87Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_49'
               d='M377.98 257.87H156.58V411.54H377.98V257.87Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_50'
               d='M128.58 349.87C136.953 349.87 143.74 343.083 143.74 334.71C143.74 326.337 136.953 319.55 128.58 319.55C120.207 319.55 113.42 326.337 113.42 334.71C113.42 343.083 120.207 349.87 128.58 349.87Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_51'
               d='M128.58 342.89C133.098 342.89 136.76 339.228 136.76 334.71C136.76 330.192 133.098 326.53 128.58 326.53C124.062 326.53 120.4 330.192 120.4 334.71C120.4 339.228 124.062 342.89 128.58 342.89Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_52'
               d='M135.35 265.77H121.2V274.87H135.35V265.77Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_53'
               d='M135.35 279.42H121.2V288.52H135.35V279.42Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_54'
               d='M135.35 293.06H121.2V302.16H135.35V293.06Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_55'
               d='M135.35 306.71H121.2V315.81H135.35V306.71Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_56'
               d='M135.35 354.84H121.2V363.94H135.35V354.84Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_57'
               d='M135.35 368.48H121.2V377.58H135.35V368.48Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_58'
               d='M135.35 382.13H121.2V391.23H135.35V382.13Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_59'
               d='M135.35 395.78H121.2V404.88H135.35V395.78Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
           </g>
           <g id='freepik  device 1  inject 72'>
@@ -474,79 +473,79 @@ const Avatar = ({ color1 }) => {
               d='M220.906 424.168L220.43 423.288C220.341 423.123 220.135 423.061 219.97 423.15L215.623 425.498C215.458 425.587 215.396 425.793 215.485 425.958L215.961 426.838C216.05 427.003 216.256 427.065 216.421 426.976L220.768 424.629C220.933 424.539 220.995 424.333 220.906 424.168Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_61'
               d='M419.15 321.76L420.01 321.32C425.5 318.32 428.93 314.03 427.65 311.67C426.37 309.31 420.89 309.81 415.39 312.77L414.56 313.25L419.15 321.76Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_62'
               d='M250.5 420.53C254.79 417.75 263.82 411.03 274.25 405.16C284.68 399.29 358.42 359 358.42 359L421.64 322.33C421.64 322.33 422.48 321.7 420.44 317.33H420.51C420.27 316.88 420.03 316.45 419.8 316.06C419.57 315.67 419.38 315.23 419.13 314.77H419.06C416.49 310.64 415.5 311 415.5 311L350.16 343.75C350.16 343.75 276.05 383.3 265.42 388.81C254.79 394.32 244.21 398.18 239.54 400.25C238.603 400.648 237.706 401.134 236.86 401.7L218.11 423.35L218.66 424.35L218.88 424.77L219.43 425.77L247.82 421.97C248.747 421.555 249.642 421.073 250.5 420.53Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_63'
               d='M233.03 406.09L218.11 423.33L218.66 424.34L218.88 424.76L219.43 425.77L242.45 422.69L233.03 406.09Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_64'
               d='M309.614 378.309L307.405 374.218C306.995 373.459 306.049 373.177 305.291 373.586L258.014 399.117C257.256 399.526 256.973 400.473 257.383 401.231L259.592 405.322C260.002 406.08 260.948 406.363 261.706 405.954L308.983 380.423C309.741 380.014 310.024 379.067 309.614 378.309Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_65'
               d='M293.927 386.228L292.245 383.113C291.935 382.54 291.219 382.326 290.646 382.635L259.418 399.499C258.845 399.809 258.631 400.525 258.941 401.098L260.623 404.213C260.933 404.786 261.648 405 262.222 404.69L293.449 387.827C294.023 387.517 294.237 386.801 293.927 386.228Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_66'
               d='M269.82 394.1L272.28 398.66'
               stroke='white'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_67'
               d='M346.58 365.49L358.42 359L421.64 322.33C421.64 322.33 422.48 321.7 420.44 317.33H420.51C420.27 316.88 420.03 316.45 419.8 316.06C419.57 315.67 419.38 315.23 419.13 314.77H419.06C416.49 310.64 415.5 311 415.5 311L350.16 343.75L338.26 350.1L346.58 365.49Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_68'
               d='M231.65 424.13L226.18 414.01L225.16 415.19L230.1 424.34L231.65 424.13Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_69'
               d='M234 404.98L232.64 406.55L241.43 422.83L243.49 422.55L234 404.98Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
           </g>
           <g id='freepik  character 3  inject 72'>
@@ -682,9 +681,9 @@ const Avatar = ({ color1 }) => {
               id='Vector_93'
               d='M221.52 118.66H212.35V127.44H221.52V118.66Z'
               stroke='#263238'
-              stroke-width='2'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='2'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_94'
@@ -701,9 +700,9 @@ const Avatar = ({ color1 }) => {
               id='Vector_96'
               d='M209.52 104.23H233.19'
               stroke='white'
-              stroke-width='2'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='2'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_97'
@@ -719,89 +718,89 @@ const Avatar = ({ color1 }) => {
               id='Vector_99'
               d='M305.8 98.72V106.17'
               stroke='white'
-              stroke-width='0.5'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='0.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_100'
               d='M309.04 100.99H314.87'
               stroke='white'
-              stroke-width='0.5'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='0.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_101'
               d='M309.04 102.28H314.87'
               stroke='white'
-              stroke-width='0.5'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='0.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_102'
               d='M309.04 103.58H314.87'
               stroke='white'
-              stroke-width='0.5'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='0.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_103'
               d='M309.04 104.88H314.87'
               stroke='white'
-              stroke-width='0.5'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='0.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_104'
               d='M353.14 100.08C353.14 100.08 349.05 95.61 347.56 95.61C346.07 95.61 322.56 98.96 321.48 98.4C320.4 97.84 320.18 93.93 318.48 93.19C317.357 92.7233 316.156 92.469 314.94 92.44C314.94 92.44 314.59 91 313.28 91C312.638 90.9549 311.996 91.0826 311.42 91.37C311.314 91.6041 311.26 91.8581 311.26 92.115C311.26 92.3719 311.314 92.6259 311.42 92.86C311.79 93.61 311.23 95.66 311.23 95.66C310.033 95.2294 308.78 94.9767 307.51 94.91C307.265 94.8757 307.015 94.9162 306.793 95.0263C306.571 95.1364 306.387 95.311 306.266 95.5271C306.145 95.7433 306.092 95.9909 306.114 96.2377C306.136 96.4844 306.233 96.7188 306.39 96.91C306.95 97.28 309.56 96.17 310.3 97.47C311.04 98.77 311.79 100.64 313.66 101.2C316.368 101.682 319.103 101.993 321.85 102.13L344 104.55L347.35 109.02L355.17 105.48L353.14 100.08Z'
               fill='#D9D9D9'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_105'
               d='M348.12 153.72L345.12 157.63C345.12 157.63 314.12 165.89 313.37 165.89C312.62 165.89 307.87 161.89 306.57 162.29C305.27 162.69 303.03 164.71 300.79 165.08C298.55 165.45 298.93 166.57 300.24 166.95C301.55 167.33 303.77 166.2 304.33 166.2C305.084 166.277 305.832 166.4 306.57 166.57C306.57 166.57 302.84 171.05 302.28 171.23C301.72 171.41 300.42 173.47 301.35 173.47C302.28 173.47 302.47 173.28 304.35 173.28C305.612 173.253 306.866 173.065 308.08 172.72C309.219 172.345 310.337 171.911 311.43 171.42C312.55 170.86 345.33 168.06 346.43 168.06C348.002 167.942 349.469 167.226 350.53 166.06C351.64 164.75 358.35 155.06 358.35 155.06L348.12 153.72Z'
               fill='#D9D9D9'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_106'
               d='M382.2 226.55C380.103 228.744 377.865 230.798 375.5 232.7C372.33 235.12 368.98 236.8 371.21 238.1C373.44 239.4 381.46 236.42 384.06 234.19C386.66 231.96 385.37 225.06 385.37 225.06L382.2 226.55Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_107'
               d='M398.22 177.75C398.22 177.75 401.22 177.75 401.22 179.99C401.22 182.23 398.61 184.27 398.8 186.32C398.99 188.37 399.36 190.98 397.68 192.84C396 194.7 392.28 198.61 392.47 195.45C392.66 192.29 394.33 188.55 394.14 186.32C393.933 184.777 393.361 183.306 392.47 182.03L395.07 177.19L398.22 177.75Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_108'
               d='M410.7 136.77C408.09 132.12 402.13 128.95 402.13 128.95C402.13 128.95 400.08 137.33 395.8 139.95C393.042 141.59 390.102 142.903 387.04 143.86C387.04 143.86 380.9 145.72 373.04 152.8C365.18 159.88 354.04 174.8 355.72 176.46C357.4 178.12 361.72 177.76 368.72 178.32C373.238 178.778 377.78 178.965 382.32 178.88C382.32 178.88 381.57 191.36 381.57 195.83C381.57 200.3 380.83 227.83 380.83 227.83C380.83 227.83 383.06 229.69 386.6 227.64C386.6 227.64 394.8 199.51 394.8 194.64V185.33C394.8 185.33 407.65 160.93 410.63 154.78C413.61 148.63 413.31 141.43 410.7 136.77ZM385 172.35L375.12 168.81L390.77 159.31L385 172.35Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_109'
               d='M359.92 132.78L345.53 155.84L360.46 157.28L371.08 144.07C371.08 144.07 380.84 142.93 383.42 143.21C386 143.49 385.59 145 386.29 145.51C387.6 146.51 388.59 146.94 395.19 146.08C401.79 145.22 404.37 136.61 403.51 131.73C402.65 126.85 398.06 124.27 393.18 120.82C388.3 117.37 376.82 111.93 372.51 110.82C368.2 109.71 359.59 108.52 359.59 108.52L356.44 99.91C356.44 99.91 347.83 97.61 344.38 101.34L343.81 103.34L356.15 127.46L359.92 132.78Z'
               fill={color1}
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_110'
@@ -819,15 +818,15 @@ const Avatar = ({ color1 }) => {
               id='Vector_112'
               d='M355.62 119.06C355.62 119.06 356.85 110.45 351.73 104.92C346.61 99.39 335.13 103.69 332.47 108.41C329.81 113.13 332.68 119.26 333.7 120.29C334.72 121.32 334.93 122.29 333.7 124.38C332.47 126.47 332.06 126.64 333.29 127.25C333.927 127.59 334.597 127.865 335.29 128.07C335.29 128.07 338.98 132.58 340 134.22C340.217 134.568 340.5 134.87 340.833 135.109C341.166 135.348 341.543 135.518 341.943 135.611C342.342 135.704 342.756 135.717 343.16 135.65C343.565 135.583 343.952 135.437 344.3 135.22C345.53 134.4 351.3 129.28 351.3 129.28L359.9 132.76C360.265 130.521 360.265 128.239 359.9 126C359.31 122.54 358.28 119.06 355.62 119.06Z'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_113'
               d='M338.82 128.69C339.627 128.739 340.425 128.493 341.065 127.999C341.705 127.504 342.144 126.794 342.3 126'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <g id='Vector_114'>
               <path
@@ -837,8 +836,8 @@ const Avatar = ({ color1 }) => {
               <path
                 d='M348.83 119.24C348.83 119.24 350.29 113.73 351.93 116.24C353.57 118.75 354.19 121.57 352.34 122.8C350.49 124.03 349.68 123.62 349.68 123.62'
                 stroke='#263238'
-                stroke-linecap='round'
-                stroke-linejoin='round'
+                strokeLinecap='round'
+                strokeLinejoin='round'
               />
             </g>
             <path
@@ -850,44 +849,44 @@ const Avatar = ({ color1 }) => {
               id='Vector_116'
               d='M335.17 118.3C335.17 118.3 335.17 116.87 337.35 117.49'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_117'
               d='M355.62 119.06C356.901 120.935 357.597 123.149 357.62 125.42C357.62 129.15 357.33 132.88 358.48 133.74L359.62 134.6C359.62 134.6 363.07 132.88 361.92 125.99C360.77 119.1 356.81 116.14 355.62 119.06Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_118'
               d='M390.77 159.31C390.77 159.31 388.91 152.79 387.42 150.74'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_119'
               d='M382.39 178.87C382.853 176.555 383.738 174.345 385 172.35'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_120'
               d='M371.08 144.07L376.61 137.14'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_121'
               d='M371.96 143.11L383.51 136.77'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
           </g>
           <g id='freepik  character 2  inject 72'>
@@ -896,69 +895,69 @@ const Avatar = ({ color1 }) => {
               d='M329.42 336.47L336.47 348.63C336.47 348.63 333.17 352.38 330.32 353.58C327.47 354.78 328.22 355.68 328.97 355.68C329.72 355.68 330.92 356.73 333.92 355.53C336.92 354.33 338.72 353.13 340.07 353.28C341.42 353.43 343.82 353.28 343.82 351.33C343.82 349.38 343.67 349.08 340.67 343.98C337.67 338.88 332.72 324.77 332.72 324.77L329.42 336.47Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_123'
               d='M339 349.08C338.124 349.236 337.22 349.076 336.45 348.63C336.45 348.63 333.15 352.38 330.3 353.58C327.45 354.78 328.2 355.68 328.95 355.68C329.7 355.68 330.9 356.73 333.9 355.53C336.9 354.33 338.7 353.13 340.05 353.28C341.4 353.43 343.8 353.28 343.8 351.33C343.8 349.8 343.71 349.27 342.21 346.65C341.38 347.52 339.93 348.88 339 349.08Z'
               fill={color1}
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_124'
               d='M332.72 324.77L329.42 336.47L332.75 342.22C334.06 342.08 335.93 341.4 338.44 339.44C335.7 333.26 332.72 324.77 332.72 324.77Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_125'
               d='M393.65 265.49C391.65 263.24 384.49 262.79 384.49 262.79C384.49 262.79 373.24 245.23 370.69 242.38C368.14 239.53 362.13 234.73 358.53 230.08C354.93 225.43 351.93 220.47 348.33 219.87C344.73 219.27 337.07 221.22 335.72 221.22C334.37 221.22 333.92 214.47 333.92 214.47L326.87 218.07C326.87 218.07 327.92 222.42 326.87 223.32C325.82 224.22 317.11 224.37 314.71 226.78C312.31 229.19 305.26 238.63 302.71 241.18C300.16 243.73 292.65 248.38 290.25 250.94C287.85 253.5 278.4 262.19 276.15 263.39C273.9 264.59 271.34 262.19 269.24 262.04C267.14 261.89 263.54 261.29 263.69 262.19C263.84 263.09 266.54 263.69 267.29 264.14C268.04 264.59 269.69 265.94 269.69 265.94C269.69 265.94 265.79 265.79 265.19 266.09C264.59 266.39 265.79 267.59 266.84 267.59C267.89 267.59 268.64 267.14 270.59 268.04C272.54 268.94 276.59 267.74 277.8 266.84C279.01 265.94 302.86 252.14 304.51 250.64C306.16 249.14 316.36 241.64 316.36 241.64C316.36 241.64 319.21 249 320.11 251.85C321.01 254.7 321.02 264.3 320.26 268.5C319.814 272.035 319.714 275.605 319.96 279.16C319.96 279.16 311.56 297.62 310.51 303.77C309.46 309.92 312.01 312.62 312.31 313.67C312.61 314.72 321.77 327.67 321.77 327.67L322.67 329.47C322.67 329.47 321.92 344.47 320.57 351.38C319.946 354.391 319.09 357.35 318.01 360.23C316.654 363.462 314.943 366.535 312.91 369.39C311.71 370.74 310.51 371.79 312.01 371.79C313.51 371.79 319.21 369.99 321.32 368.34C323.231 366.651 325.034 364.844 326.72 362.93C327.62 362.03 327.47 360.98 326.57 359.63C325.67 358.28 325.52 355.43 325.52 354.68C325.52 353.93 331.97 332.17 333.77 325.42C335.57 318.67 334.67 310.86 334.67 310.42C334.67 309.98 351.93 290.31 352.23 282.96C352.53 275.61 349.38 268.25 346.98 263.9C344.58 259.55 340.82 254.15 340.82 253.7C340.82 253.25 340.82 253.55 341.57 250.1C342.32 246.65 346.23 231.79 346.23 231.79L352.38 235.54L371 252.89L383 264.14C383.411 265.21 383.966 266.22 384.65 267.14C386.169 268.223 387.836 269.081 389.6 269.69C390.05 269.69 391.25 269.54 390.5 268.94C389.589 268.325 388.637 267.774 387.65 267.29C387.65 267.29 390.65 267.14 391.7 268.04C392.92 268.937 394.297 269.598 395.76 269.99C396.2 270 395.6 267.74 393.65 265.49Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_126'
               d='M320.44 267.28C320.39 267.71 320.33 268.13 320.26 268.49C319.814 272.025 319.714 275.595 319.96 279.15C319.96 279.15 311.56 297.61 310.51 303.76C309.46 309.91 312.01 312.61 312.31 313.66C312.61 314.71 321.77 327.66 321.77 327.66L322.67 329.46C322.67 329.46 322.26 337.59 321.5 344.64C323.627 345.528 325.998 345.641 328.2 344.96C330.2 338.02 332.74 329.27 333.77 325.41C335.57 318.65 334.67 310.85 334.67 310.41C334.67 309.97 351.93 290.3 352.23 282.95C352.47 276.95 350.44 271 348.38 266.64C342.76 268 330.22 270.34 320.44 267.28Z'
               fill='#808080'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_127'
               d='M322.67 329.42C322.67 329.42 323.42 310.81 323.72 307.81C324.02 304.81 336.47 281.55 336.47 281.55'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_128'
               d='M333.47 286.95L328.52 281.55'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_129'
               d='M370.69 242.38C368.14 239.53 362.13 234.73 358.53 230.08C354.93 225.43 351.93 220.47 348.33 219.87C345.89 219.47 341.62 220.22 338.68 220.76C337.68 224.07 335.25 230.58 330.47 231.58C325.12 232.7 324.1 226.29 323.91 224.06C320.84 224.56 316.34 225.15 314.71 226.78C312.31 229.18 305.26 238.63 302.71 241.18C300.16 243.73 292.65 248.38 290.25 250.94C289.01 252.26 285.88 255.22 282.84 257.94C283.57 259.503 284.681 260.857 286.07 261.88C293.53 257.46 303.46 251.59 304.51 250.64C306.16 249.14 316.36 241.64 316.36 241.64C316.36 241.64 319.21 249 320.11 251.85C321.01 254.7 321.02 264.3 320.26 268.5C320.02 270.019 319.886 271.553 319.86 273.09C332.18 277.2 345.59 272.09 349.91 270.22C349.082 268.031 348.103 265.903 346.98 263.85C344.58 259.5 340.82 254.1 340.82 253.65C340.82 253.2 340.82 253.5 341.57 250.05C342.32 246.6 346.23 231.74 346.23 231.74L352.38 235.49L371 252.89L372.44 254.24L376.8 251C374.21 247.14 371.73 243.54 370.69 242.38Z'
               fill={color1}
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_130'
               d='M316.36 241.63C316.241 240.534 316.191 239.432 316.21 238.33C316.314 236.606 316.72 234.913 317.41 233.33'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_131'
@@ -975,24 +974,24 @@ const Avatar = ({ color1 }) => {
               d='M338.29 202.3C338.29 202.3 338.94 194.3 333.95 190.59C328.96 186.88 322.03 189.07 319.21 194.28C316.39 199.49 318.34 204.46 319.21 207.93C320.08 211.4 320.94 214 322.68 216.17C324.42 218.34 327.68 220.07 330.26 219.42C332.84 218.77 335.26 214.42 336.55 209.67C336.55 209.67 338.72 209.88 340.24 207.28C341.76 204.68 340.89 200.35 338.29 202.3Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_134'
               d='M325 205.92C325.199 206.164 325.308 206.47 325.308 206.785C325.308 207.1 325.199 207.406 325 207.65C324.33 208.71 323.53 209.65 324.2 210.04C324.696 210.307 325.234 210.486 325.79 210.57'
               stroke='#263238'
-              stroke-width='1.11412'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.11412'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_135'
               d='M324.63 213.45C324.92 213.83 328.04 215.02 329.19 212.45'
               stroke='#263238'
-              stroke-width='1.11412'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeWidth='1.11412'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_136'
@@ -1008,31 +1007,31 @@ const Avatar = ({ color1 }) => {
               id='Vector_138'
               d='M327 202.12C327 202.12 329.55 200.61 331.05 202.57'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_139'
               d='M323.42 203.17C323.42 203.17 321.47 201.51 319.96 203.17'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_140'
               d='M338.31 201.79C338.31 199.99 338.19 193.73 333.95 190.59C328.95 186.9 322.03 189.07 319.21 194.28C318.37 195.821 317.879 197.528 317.77 199.28V200.35C317.77 200.35 317.71 194.45 322.67 193.35C327.63 192.25 331.48 194.04 332.57 196.58C333.78 199.41 334.07 200.58 334.74 202.07C335.41 203.56 336.21 205.71 336.96 204.81C337.29 204.44 337.88 202.43 338.31 201.79Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_141'
               d='M326.72 362.88C327.62 361.98 327.47 360.93 326.57 359.58C326.342 359.217 326.167 358.823 326.05 358.41L323.12 361.83C322.555 360.696 321.849 359.638 321.02 358.68C319.51 356.88 318.61 358.83 318.61 358.83H318.53C318.35 359.27 318.18 359.7 318.01 360.15C316.654 363.382 314.943 366.455 312.91 369.31C311.71 370.66 310.51 371.71 312.01 371.71C313.51 371.71 319.21 369.91 321.32 368.26C323.23 366.581 325.033 364.784 326.72 362.88Z'
               fill={color1}
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
           </g>
           <g id='freepik  character 1  inject 72'>
@@ -1041,8 +1040,8 @@ const Avatar = ({ color1 }) => {
               d='M130.38 205.85L123.38 232.3C123.38 232.3 115.82 232.6 114.38 233.04C112.94 233.48 111.86 237.04 112.01 237.78C112.16 238.52 113.01 238.23 113.79 237.93C113.79 237.93 111.86 238.82 113.2 239.12C114.54 239.42 117.94 238.12 117.94 238.12C117.94 238.12 123.72 238.12 124.61 237.12C125.789 235.45 126.687 233.599 127.27 231.64C127.57 230.31 138.27 208.89 138.27 208.89C138.27 208.89 132.75 209 130.38 205.85Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <g id='Vector_143'>
               <path
@@ -1052,8 +1051,8 @@ const Avatar = ({ color1 }) => {
               <path
                 d='M113.79 237.93C115.508 236.909 117.349 236.112 119.27 235.56'
                 stroke='#263238'
-                stroke-linecap='round'
-                stroke-linejoin='round'
+                strokeLinecap='round'
+                strokeLinejoin='round'
               />
             </g>
             <path
@@ -1061,131 +1060,131 @@ const Avatar = ({ color1 }) => {
               d='M173.25 208.6L180.95 224.75H186.14L181.1 204.75L173.25 208.6Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_145'
               d='M178.88 293.8C178.88 293.8 177.69 302.8 178.28 302.8C178.87 302.8 185.84 305.02 187.28 305.46C188.72 305.9 195.73 307.09 196.17 306.35C196.61 305.61 186.25 298.05 185.8 297.61C185.224 296.716 184.729 295.772 184.32 294.79L178.88 293.8Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_146'
               d='M179.57 267.27C179.57 267.27 174.57 272.27 175.48 273.27C176.39 274.27 185.23 286.48 187.48 285.27C189.73 284.06 184.65 271.42 184.65 271.42L179.57 267.27Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_147'
               d='M203 225.93C192.48 221.04 175.44 221.93 175.44 221.93L172.36 216C169.154 217.206 165.823 218.052 162.43 218.52C157.43 219.11 145.24 217.18 145.24 217.18C145.24 217.18 143 228.45 143 232.75C143 237.05 145.82 237.2 157.52 239.86C169.22 242.52 181.08 243.86 181.08 243.86C181.08 243.86 179.3 259.57 179.6 269.79C179.9 280.01 178.86 293.79 178.86 293.79L184.34 294.79L191.81 269C191.81 269 216.51 241.94 219.03 240.31C221.55 238.68 213.55 230.82 203 225.93ZM195 251.27C195 251.27 195.89 242.68 195.89 241.2C195.89 239.72 194.11 237.94 194.11 237.94C195.29 238.38 201.67 240.16 201.67 240.16L195 251.27Z'
               fill={color1}
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_148'
               d='M194.14 237.94C187.213 231.802 178.386 228.232 169.14 227.83'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_149'
               d='M195.03 251.27L191.81 269'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_150'
               d='M151.94 228.75C151.94 228.75 157.47 225.37 163.31 226.6'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_151'
               d='M158.58 163.55C155.105 165.949 151.424 168.034 147.58 169.78C141.36 172.59 135.58 175.26 135.58 176.3C135.58 177.34 131.69 202.15 131.69 202.59C131.69 203.03 133.31 205.7 135.54 205.7C136.585 205.746 137.632 205.649 138.65 205.41L143.29 196C143.29 196 145.51 216.75 145.21 217.19C144.91 217.63 148.03 220.45 150.84 221.19C153.65 221.93 172.62 219.56 173.22 217.49C173.82 215.42 170.43 203 170.43 203L171.32 196L172.8 204.6C172.8 204.6 172.65 205.78 175.47 205.34C176.276 205.224 177.049 204.939 177.738 204.505C178.427 204.071 179.017 203.497 179.47 202.82C179.47 202.82 179.17 186.08 179.17 181.93C179.17 177.78 181.1 175.26 179.62 174.22C178.14 173.18 164.95 164.59 163.62 163.7C162.841 163.311 161.987 163.096 161.117 163.07C160.246 163.044 159.381 163.208 158.58 163.55V163.55Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_152'
               d='M131.72 200.07C132.435 201.313 133.523 202.299 134.83 202.89C137.05 203.89 139.12 202.74 139.72 203.48C140.32 204.22 140.51 208.17 138.53 209.26C137.44 209.853 136.204 210.125 134.965 210.046C133.726 209.966 132.536 209.538 131.53 208.81C129.39 207.46 129.45 206.59 129.6 205.41C129.75 204.23 130.23 200.07 131.72 200.07Z'
               fill={color1}
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_153'
               d='M171.77 204.3C171.77 204.3 172.77 208.15 173.25 208.6C173.73 209.05 177.99 208.89 181.1 206.08C181.2 205.642 181.2 205.188 181.1 204.75C180.95 203.86 179.91 200.75 179.47 200.75C179.03 200.75 175.47 203.75 172.8 202.98C172.8 203 171.17 202.82 171.77 204.3Z'
               fill={color1}
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_154'
               d='M171.32 196L174.25 183.44'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_155'
               d='M143.32 196C143.32 196 145.75 188.64 145.75 186.83C145.75 185.02 143.75 181.63 143.75 181.63'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_156'
               d='M160.36 155.4L156.8 165.48C156.8 165.48 161.69 178.67 162.28 178.48C162.87 178.29 168.8 165.88 168.8 165.88C168.8 165.88 167.32 157.44 165.8 153.88C164.28 150.32 160.36 155.4 160.36 155.4Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_157'
               d='M174.28 138.81C174.28 138.81 178.73 141.92 179.17 143.25C179.61 144.58 177.99 146.25 177.99 146.25C177.99 146.25 178.14 151.25 178.14 152.47C178.019 153.408 177.622 154.288 177 155C177 155 179.22 158.26 178.63 159C178.152 159.487 177.526 159.8 176.85 159.89C176.85 159.89 176.56 162.89 175.96 163.59L175.37 164.33C175.457 165.865 175.407 167.404 175.22 168.93C174.93 169.93 173.15 170.71 169.74 168.78C166.33 166.85 164.11 165.22 163.67 163.78C163.351 162.022 163.201 160.237 163.22 158.45L161.74 154.15L160.11 157.15C157.98 153.837 156.661 150.068 156.26 146.15C155.37 139.15 163.52 136.67 167.26 136.37C171 136.07 174.28 138.81 174.28 138.81Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_158'
               d='M179.17 143.25C178.73 141.92 174.28 138.81 174.28 138.81C174.28 138.81 170.88 135.99 167.17 136.29C163.46 136.59 155.32 139.1 156.17 146.07C156.571 149.988 157.89 153.757 160.02 157.07L161.65 154.07L163.13 158.37C163.111 160.157 163.261 161.942 163.58 163.7C164.02 165.18 166.24 166.81 169.65 168.7C173.06 170.59 174.84 169.88 175.13 168.85C175.315 167.579 175.372 166.292 175.3 165.01C175.3 165.01 175.3 165.01 175.3 165.01C173.82 164.57 173.08 167.09 171.75 166.64C170.42 166.19 166.56 163.64 165.67 161.16C164.78 158.68 164.93 151.68 164.93 151.68C166.425 151.122 167.864 150.425 169.23 149.6C170.12 148.86 167.89 146.94 166.56 145.9C165.23 144.86 167.56 143.83 171.15 143.53C174.74 143.23 177.97 146.2 177.97 146.2C177.97 146.2 179.62 144.59 179.17 143.25Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_159'
               d='M163.76 156.59C163.76 156.59 163.47 151.7 161.69 151.4C159.91 151.1 159.47 155.11 160.06 157.03C160.65 158.95 162.87 158.81 163.17 158.37C163.437 157.802 163.635 157.205 163.76 156.59Z'
               fill='white'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_160'
               d='M176.8 159.85C176.8 159.85 172.51 160.15 170.88 160.15C169.25 160.15 168.8 160.89 169.99 162.22C171.204 163.316 172.795 163.9 174.43 163.85C175.03 163.7 175.91 163.55 175.91 163.55C175.91 163.55 178 161.77 176.8 159.85Z'
               fill='#263238'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
             <path
               id='Vector_161'
@@ -1196,8 +1195,8 @@ const Avatar = ({ color1 }) => {
               id='Vector_162'
               d='M175.47 152.88C175.47 152.88 175.03 150.81 172.06 151.55'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
           </g>
           <g id='freepik  Floor  inject 72'>
@@ -1205,8 +1204,8 @@ const Avatar = ({ color1 }) => {
               id='Vector_163'
               d='M39.62 433.69H473.46'
               stroke='#263238'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             />
           </g>
         </g>

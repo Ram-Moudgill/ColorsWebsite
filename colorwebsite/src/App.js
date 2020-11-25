@@ -9,7 +9,6 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Colorpicker from './components/Screens/Colorpicker'
 import Gradients from './components/Screens/Gradients'
 import Navbar from './components/Components/Navbar'
-import Trycolors from './components/Screens/Palettes'
 import Footer from './components/Components/Footer'
 import axios from 'axios'
 import Palettediv from './components/Components/Palettediv'
@@ -47,7 +46,6 @@ class App extends Component {
     })
   }
   filterMethod = async (value) => {
-    // console.log(value)
     this.setState({ loading: true })
     const res = await axios.get(`/api/colors/category/${value}`)
     const newCollection = res.data.colors
@@ -55,16 +53,16 @@ class App extends Component {
   }
   changeMode = (modevalue) => {
     this.setState({ mode: modevalue })
-    console.log(this.state.mode)
+    // console.log(this.state.mode)
   }
   temppalette = (color1, color2, color3, color4) => {
     this.setState({
       palettefortemp: { color1, color2, color3, color4 },
     })
-    console.log(this.state.palettefortemp)
+    // console.log(this.state.palettefortemp)
   }
   sidebarstatus = () => {
-    console.log('hello')
+    // console.log('hello')
   }
   render() {
     return (

@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../css/About.css'
 const AboutColors = () => {
   return (
     <Fragment>
       <div className='row my-5 mx-0'>
-        <div className='col-10 mx-auto p-4'>
+        <div className='col-md-10 mx-auto p-4'>
           <div className='about_colors'>
             <h5 className='subheading text-center'>About this Website</h5>
             <h5>Introduction</h5>
@@ -33,16 +33,21 @@ const AboutColors = () => {
             <h5 className='mt-4'>Who founded Million Colors?</h5>
             <p className='about_colors_p'>
               Million Colors founded by &nbsp;
-              <a
-                href='https://ram-moudgill.github.io/MyPortfolio/'
+              <Link
+                to={{ pathname: 'https://ram-moudgill.github.io/MyPortfolio/' }}
                 className='same'
+                target='_blank'
               >
                 &nbsp;Ram Moudgill
-              </a>{' '}
+              </Link>{' '}
               and
-              <a href='https://manpreetchoudhary.github.io/' className='same'>
+              <Link
+                to={{ pathname: 'https://manpreetchoudhary.github.io/' }}
+                target='_blank'
+                className='same'
+              >
                 &nbsp;Manpreet Singh
-              </a>
+              </Link>
               &nbsp;,designer and full stack web developer
             </p>
 
@@ -51,13 +56,13 @@ const AboutColors = () => {
               If you have any quieries, suggestions or other requests feel free
               to contact us! <br></br>We are always happy to hear from you!
             </p>
-            <a href='#'>
+            <Link to={{ pathname: '/' }}>
               <span>Email:&nbsp;</span>example@gmail.com
-            </a>
+            </Link>
             <br />
-            <a href='#'>
+            <Link to={{ pathname: '/' }}>
               <span>Instagram:&nbsp;</span>https://www.instagram.com
-            </a>
+            </Link>
           </div>
         </div>
       </div>
