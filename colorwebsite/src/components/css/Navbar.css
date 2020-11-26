@@ -20,10 +20,10 @@
   margin: 0px 4px;
 }
 .nav-link:hover {
-  color: var(--primary-color1) !important;
+  color: var(--primary-color) !important;
 }
 .active {
-  color: var(--primary-color1) !important;
+  color: var(--primary-color) !important;
 }
 .ham__icon {
   outline-width: 0 !important;

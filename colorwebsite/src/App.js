@@ -4,7 +4,6 @@ import Colors from './components/Screens/Colors'
 import Search from './components/Components/Search'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
-import '../node_modules/jquery/dist/jquery.slim'
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Colorpicker from './components/Screens/Colorpicker'
 import Gradients from './components/Screens/Gradients'
@@ -30,7 +29,6 @@ class App extends Component {
     },
   }
   async componentDidMount() {
-    console.log(this.state.collection.length)
     this.setState({ loading: true })
     const palettesres = await axios.get('/api/palettes')
     this.setState({
@@ -53,8 +51,7 @@ class App extends Component {
       palettefortemp: { color1, color2, color3, color4 },
     })
   }
-  sidebarstatus = () => {
-  }
+  sidebarstatus = () => {}
   trigerColors = () => {
     if (this.state.collection.length === 0) {
       const trigerColorsdata = async () => {
@@ -64,6 +61,11 @@ class App extends Component {
       }
       trigerColorsdata()
     }
+  }
+  allColors = async () => {
+    this.setState({ loading: true })
+    const res = await axios.get('/api/colors')
+    this.setState({ collection: res.data.colors, loading: false })
   }
   trigerGradients = () => {
     if (this.state.gradientscollection.length === 0) {
@@ -101,7 +103,10 @@ class App extends Component {
                 path='/colors'
                 render={(props) => (
                   <>
-                    <Search filterMethod={this.filterMethod}></Search>
+                    <Search
+                      filterMethod={this.filterMethod}
+                      allColors={this.allColors}
+                    ></Search>
                     <Colors
                       collection={this.state.collection}
                       loading={this.state.loading}

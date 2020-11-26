@@ -5,7 +5,7 @@ const CardSection = ({ mode }) => {
     <>
       <div className='row mt-5 mx-0'>
         <div className='col-md-10 mx-auto'>
-          <h3 className='text-center'>Why Million Colors?</h3>
+          <h3 className='text-center mt-5 mb-4'>Why Million Colors?</h3>
           <div className='row mx-0'>
             <Card
               mode={mode}
@@ -17,7 +17,7 @@ const CardSection = ({ mode }) => {
             ></Card>
             <Card
               mode={mode}
-              iconClass={'fas fa-square'}
+              iconClass={'far fa-grin-alt'}
               cardTitle={'Trending Colors'}
               CardDescription={
                 'A color trend is a direction. It’s a developing awareness or an emerging preference for a color or several colors.'
@@ -25,7 +25,7 @@ const CardSection = ({ mode }) => {
             ></Card>
             <Card
               mode={mode}
-              iconClass={'fas fa-square'}
+              iconClass={'fas fa-surprise'}
               cardTitle={'Chosen Gradients'}
               CardDescription={
                 'You can use gradients to add depth to an otherwise flat design, create an interesting texture for a background.'
@@ -41,7 +41,7 @@ const CardSection = ({ mode }) => {
             ></Card>
             <Card
               mode={mode}
-              iconClass={'fas fa-circle'}
+              iconClass={'fas fa-search'}
               cardTitle={'Color Filter'}
               CardDescription={
                 'You can also filtering single color and get combinations of similar colors.'

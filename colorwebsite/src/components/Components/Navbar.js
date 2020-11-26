@@ -31,8 +31,8 @@ class Navbar extends Component {
         <div className=' col-12 mx-auto'>
           <nav className='navbar navbar-expand-lg '>
             <img src={Logo} className='logo__img' alt='Logo' />
-            <button
-              className='navbar-toggler'
+            <IconButton
+              className='icon__button navbar-toggler'
               type='button'
               data-toggle='collapse'
               data-target='#navbarSupportedContent'
@@ -40,13 +40,11 @@ class Navbar extends Component {
               aria-expanded='false'
               aria-label='Toggle navigation'
             >
-              <IconButton className='icon__button'>
-                <MenuRoundedIcon
-                  className='ham__icon'
-                  style={{ color: this.props.mode ? 'gray' : '#fff' }}
-                ></MenuRoundedIcon>
-              </IconButton>
-            </button>
+              <MenuRoundedIcon
+                className='ham__icon'
+                style={{ color: this.props.state ? '#fff' : 'gray' }}
+              ></MenuRoundedIcon>
+            </IconButton>
             <div
               className='collapse navbar-collapse'
               id='navbarSupportedContent'

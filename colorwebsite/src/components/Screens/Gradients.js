@@ -4,7 +4,7 @@ import Loading from '../Components/Loading'
 const Gradients = ({ gradientcollection, loading, trigerGradients }) => {
   useEffect(() => {
     trigerGradients()
-  }, [])
+  }, [trigerGradients])
   if (loading) {
     return <Loading />
   } else {

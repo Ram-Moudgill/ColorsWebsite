@@ -4,7 +4,7 @@ import Loading from '../Components/Loading'
 const Colors = ({ collection, loading, trigerColors }) => {
   useEffect(() => {
     trigerColors()
-  }, [])
+  }, [trigerColors])
   if (loading) {
     return <Loading></Loading>
   } else {

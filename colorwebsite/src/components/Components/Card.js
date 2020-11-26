@@ -13,7 +13,7 @@ const Card = ({ iconClass, cardTitle, CardDescription, mode }) => {
         >
           <div className='card-body'>
             <div className='text-center'>
-              <i className={`${iconClass}  mb-3`}></i>
+              <i className={`${iconClass} colorpicker_cardicon mb-3`}></i>
             </div>
             <p className='card-title font-weight-bold text-center'>
               {cardTitle}

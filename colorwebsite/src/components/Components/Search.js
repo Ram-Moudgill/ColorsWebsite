@@ -22,6 +22,13 @@ class Search extends Component {
           </span>
           <button
             className='search_filter_input'
+            style={{ background: 'white', color: 'black' }}
+            value='red'
+            onClick={this.props.allColors}
+            readOnly
+          />
+          <button
+            className='search_filter_input'
             style={{ background: 'red', color: 'red' }}
             value='red'
             onClick={this.getValue}
@@ -29,7 +36,10 @@ class Search extends Component {
           />
           <button
             className='search_filter_input'
-            style={{ background: 'pink', color: 'pink' }}
+            style={{
+              background: 'rgb(255 24 248)',
+              color: 'rgb(255 24 248)',
+            }}
             value='pink'
             onClick={this.getValue}
           />
@@ -42,14 +52,7 @@ class Search extends Component {
           />
           <button
             className='search_filter_input'
-            style={{ background: 'brown', color: 'brown' }}
-            value='brown'
-            onClick={this.getValue}
-            readOnly
-          />
-          <button
-            className='search_filter_input'
-            style={{ background: 'orange', color: 'orange' }}
+            style={{ background: '#ff7600', color: '#ff7600' }}
             value='orange'
             onClick={this.getValue}
             readOnly
@@ -79,6 +82,13 @@ class Search extends Component {
             className='search_filter_input'
             style={{ background: 'blue', color: 'blue' }}
             value='blue'
+            onClick={this.getValue}
+            readOnly
+          />
+          <button
+            className='search_filter_input'
+            style={{ background: 'brown', color: 'brown' }}
+            value='brown'
             onClick={this.getValue}
             readOnly
           />

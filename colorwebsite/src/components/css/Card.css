@@ -1,9 +1,18 @@
-.card2 {
-  font-family: 'Poppins', sans-serif !important;
-  height: 38vh;
-}
 .card2:hover {
-  transition: all 0.5s ease-in !important;
-  background-color: #e72d3c !important;
+  transition: all 0.7s linear !important;
+  background-color: var(--primary-color) !important;
   color: #fff !important;
+}
+.colorpicker_cardicon {
+  color: #fff;
+  padding: 14px;
+  background: linear-gradient(90deg, #e0172af2 0%, var(--primary-color));
+  background-clip: unset;
+  border-radius: 50%;
+  font-weight: 700;
+  box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.15),
+    0 1px 2px 0 rgba(60, 64, 67, 0.3) 0 1px 2px 0 var(--primary-color);
+}
+.card2 {
+  min-height: 250px;
 }

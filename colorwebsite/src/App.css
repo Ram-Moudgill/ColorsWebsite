@@ -7,9 +7,7 @@
 }
 :root {
   --main-bg-color: #ffffff;
-  --primary-color: #c91ce0;
-  --primary-color1: #ff5757;
-  --alternate-color: #f9002f;
+  --primary-color: #ff5757;
   --muted-color: rgba(95, 93, 93, 0.212);
 }
 html {
@@ -119,7 +117,7 @@ button:focus {
   border: none;
   color: #fff;
   background: linear-gradient(90deg, #f073c8 0%, #ff6a95 99%);
-  background: linear-gradient(90deg, #e0172af2 0%, #ff5757 99%);
+  background: linear-gradient(90deg, var(--primary-color) 0%, #ff5757 99%);
 }
 .subheading {
   font-size: 1.1rem;
@@ -138,10 +136,10 @@ button:focus {
   width: 50px;
   height: 50px;
   margin: 8px;
-  border: 5px solid #e0172af2;
+  border: 5px solid;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #e0172af2 transparent transparent transparent;
+  border-color: var(--primary-color) transparent transparent transparent;
 }
 .lds-ring div:nth-child(1) {
   animation-delay: -0.45s;
