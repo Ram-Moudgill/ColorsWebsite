@@ -11,28 +11,47 @@ import MaintempCard from '../Components/MaintempCard'
 
 const Maintemp = ({ palettefortemp, sidebarstatus }) => {
   const { color1, color2, color3, color4 } = palettefortemp
-  const [text, setText] = useState('')
+  const [text0, setText] = useState('')
+  const [text1, setText1] = useState('')
+  const [text2, setText2] = useState('')
+  const [text3, setText3] = useState('')
   sidebarstatus()
 
   function CopytoClipBoard() {
-    const copied0 = document.querySelector('.copied0').classList.add('copied')
+    document.querySelector('.copied0').classList.add('copied')
     setText('Copied!')
     setTimeout(() => {
       setText('')
-      const copied0 = document
-        .querySelector('.copied0')
-        .classList.remove('copied')
+      document.querySelector('.copied0').classList.remove('copied')
+    }, 700)
+  }
+  function CopytoClipBoard1() {
+    document.querySelector('.copied1').classList.add('copied')
+    setText1('Copied!')
+    setTimeout(() => {
+      setText1('')
+      document.querySelector('.copied1').classList.remove('copied')
+    }, 700)
+  }
+  function CopytoClipBoard2() {
+    document.querySelector('.copied2').classList.add('copied')
+    setText2('Copied!')
+    setTimeout(() => {
+      setText2('')
+      document.querySelector('.copied2').classList.remove('copied')
+    }, 700)
+  }
+  function CopytoClipBoard3() {
+    document.querySelector('.copied3').classList.add('copied')
+    setText3('Copied!')
+    setTimeout(() => {
+      setText3('')
+      document.querySelector('.copied3').classList.remove('copied')
     }, 700)
   }
   return (
     <>
-      <div
-        className='container-fluid p-0 m-0'
-        style={{
-          background: color2 ? color2 : '#fff',
-          position: 'sticky',
-        }}
-      >
+      <div className='container-fluid p-0 m-0'>
         <div className='row p-0 m-0'>
           <div
             className=' col-12 m-0 p-0'
@@ -134,7 +153,7 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                 <path
                   d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z'
                   className='shape-fill'
-                  fill={color2 ? color2 : '#fff'}
+                  fill={'#fff'}
                 ></path>
               </svg>
             </div>
@@ -145,29 +164,23 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
         <div className='row p-0 m-0'>
           <div className='col-md-12 copy_btn'>
             <h3
-              className=' text-center'
+              className=' text-left'
               style={{
                 color: color3 ? color3 : '#000',
                 zIndex: '100',
-                fontWeight: 900,
               }}
             >
               This Palette
             </h3>
             <p
-              className='mt-5'
               style={{
                 color: color3 ? color3 : '#000',
-                fontWeight: 900,
-                lineHeight: 0,
+                lineHeight: 1,
               }}
             >
               Click to copy the hex code to your clipboard
             </p>
-            <h5
-              className='pt-3'
-              style={{ color: color3 ? color3 : '#000', fontWeight: 900 }}
-            >
+            <h5 className='pt-2' style={{ color: color3 ? color3 : '#000' }}>
               Elements
             </h5>
             <div className='main_btn'>
@@ -182,16 +195,19 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                   }}
                 >
                   <span className='text-white'>
+                    <p>
+                      <strong>Background</strong>
+                    </p>
                     {color1 ? color1 : '#F47C5A'}
                   </span>
-                  <p>Background</p>
-                  <span className='copied0'>{text}😍</span>
+
+                  <span className='copied0'>{text0}</span>
                 </div>
               </CopyToClipboard>
 
               <CopyToClipboard text={color2 ? color2 : '#503F75'}>
                 <div
-                  onClick={CopytoClipBoard}
+                  onClick={CopytoClipBoard1}
                   className='Heading'
                   style={{
                     color: color2 ? color2 : '#fff',
@@ -200,16 +216,18 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                   }}
                 >
                   <span className='text-white'>
+                    <p>
+                      <strong>Heading</strong>
+                    </p>
                     {color2 ? color2 : '#503F75'}
                   </span>
-                  <p>Heading</p>
-                  <span className='copied0'>{text}😍</span>
+                  <span className='copied1'>{text1}</span>
                 </div>
               </CopyToClipboard>
 
               <CopyToClipboard text={color3 ? color3 : '#265336'}>
                 <div
-                  onClick={CopytoClipBoard}
+                  onClick={CopytoClipBoard2}
                   className='Button'
                   style={{
                     color: color3 ? color3 : '#fff',
@@ -218,15 +236,18 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                   }}
                 >
                   <span className='text-white'>
+                    <p>
+                      <strong>Button</strong>
+                    </p>
                     {color3 ? color3 : '#265336'}
                   </span>
-                  <p>Button</p>
+                  <span className='copied2'>{text2}</span>
                 </div>
               </CopyToClipboard>
 
               <CopyToClipboard text={color4 ? color4 : '#252339'}>
                 <div
-                  onClick={CopytoClipBoard}
+                  onClick={CopytoClipBoard3}
                   className='Paragraph'
                   style={{
                     color: color4 ? color4 : '#fff',
@@ -235,9 +256,12 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                   }}
                 >
                   <span className='text-white'>
+                    <p>
+                      <strong>Paragraph</strong>
+                    </p>
                     {color4 ? color4 : '#252339'}
                   </span>
-                  <p>Paragraph</p>
+                  <span className='copied3'>{text3}</span>
                 </div>
               </CopyToClipboard>
             </div>

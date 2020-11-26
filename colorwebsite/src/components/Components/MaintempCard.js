@@ -31,7 +31,7 @@ const MaintempCard = ({ palettefortemp }) => {
             className='card my-2 h-auto'
             style={{
               color: color3 ? color3 : '#000',
-              background: color2 ? color2 : '#fff',
+              // background: color2 ? color2 : '#fff',
             }}
           >
             <div className='card-body'>
