@@ -27,14 +27,14 @@ const MaintempCard = ({ palettefortemp }) => {
     <>
       {PalettesData.map((val) => (
         <div key={val._id} className='col-md-5'>
-          <div class='card my-2 h-auto'>
-            <div
-              class='card-body'
-              style={{
-                color: color3 ? color3 : '#000',
-                background: color1 ? color1 : '#fff',
-              }}
-            >
+          <div
+            class='card my-2 h-auto'
+            style={{
+              color: color3 ? color3 : '#000',
+              background: color1 ? color1 : '#fff',
+            }}
+          >
+            <div class='card-body'>
               <div className='text-center'>
                 <IconButton className='temp_cardicon'>
                   {/* ///style pending */}

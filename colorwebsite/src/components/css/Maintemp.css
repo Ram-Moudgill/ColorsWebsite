@@ -104,7 +104,7 @@
 .temp_cardicon {
   /* background: linear-gradient(296deg, #ff0a21f2 0%, #d53 99%); */
   padding: 7px;
-  color: #fff;
+  color: #fff !important;
   box-shadow: 0 1px 3px 3px rgba(60, 64, 67, 0.15), 0 1px 2px 0 rgb(255 255 255);
   border-radius: 50%;
   font-size: 46px !important;

@@ -32,13 +32,6 @@ class App extends Component {
   async componentDidMount() {
     console.log(this.state.collection.length)
     this.setState({ loading: true })
-    const res = await axios.get('/api/colors')
-    this.setState({ collection: res.data.colors, loading: false })
-    const gradientsres = await axios.get('/api/gradients')
-    this.setState({
-      gradientscollection: gradientsres.data.gradients,
-      loading: false,
-    })
     const palettesres = await axios.get('/api/palettes')
     this.setState({
       palettescollection: palettesres.data.palettes,
@@ -59,10 +52,31 @@ class App extends Component {
     this.setState({
       palettefortemp: { color1, color2, color3, color4 },
     })
-    // console.log(this.state.palettefortemp)
   }
   sidebarstatus = () => {
-    // console.log('hello')
+  }
+  trigerColors = () => {
+    if (this.state.collection.length === 0) {
+      const trigerColorsdata = async () => {
+        this.setState({ loading: true })
+        const res = await axios.get('/api/colors')
+        this.setState({ collection: res.data.colors, loading: false })
+      }
+      trigerColorsdata()
+    }
+  }
+  trigerGradients = () => {
+    if (this.state.gradientscollection.length === 0) {
+      const trigerGradientsdata = async () => {
+        this.setState({ loading: true })
+        const gradientsres = await axios.get('/api/gradients')
+        this.setState({
+          gradientscollection: gradientsres.data.gradients,
+          loading: false,
+        })
+      }
+      trigerGradientsdata()
+    }
   }
   render() {
     return (
@@ -91,6 +105,7 @@ class App extends Component {
                     <Colors
                       collection={this.state.collection}
                       loading={this.state.loading}
+                      trigerColors={this.trigerColors}
                     ></Colors>
                   </>
                 )}
@@ -103,6 +118,7 @@ class App extends Component {
                     <Gradients
                       gradientcollection={this.state.gradientscollection}
                       loading={this.state.loading}
+                      trigerGradients={this.trigerGradients}
                     ></Gradients>
                   </>
                 )}

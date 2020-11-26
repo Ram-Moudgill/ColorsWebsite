@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Gradient from '../Components/Gradient'
 import Loading from '../Components/Loading'
-const Gradients = ({ gradientcollection, loading }) => {
+const Gradients = ({ gradientcollection, loading, trigerGradients }) => {
+  useEffect(() => {
+    trigerGradients()
+  }, [])
   if (loading) {
     return <Loading />
   } else {

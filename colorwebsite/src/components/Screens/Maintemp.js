@@ -31,7 +31,12 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
         }}
       >
         <div className='row p-0 m-0'>
-          <div className=' col-12 m-0 p-0'>
+          <div
+            className=' col-12 m-0 p-0'
+            style={{
+              background: color1 ? color1 : 'red',
+            }}
+          >
             <nav
               class='navbar navbar_style w-100'
               style={{
@@ -117,7 +122,7 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
             </div>
             <div
               class='custom-shape-divider-bottom-1606045216'
-              // style={{ background: color4 ? color4 : 'yellow' }}
+              style={{ background: color1 ? color1 : 'yellow' }}
             >
               <svg
                 data-name='Layer 1'
@@ -128,18 +133,18 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                 <path
                   d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z'
                   class='shape-fill'
-                  fill={color1}
+                  fill={color2}
                 ></path>
               </svg>
             </div>
           </div>
-          <div className='col-md-12 text-center'>
-            <Avatar color1={color1} />
-          </div>
+        </div>
 
+        <Avatar color1={color1} />
+        <div className='row p-0 m-0'>
           <div className='col-md-12 copy_btn'>
-            <h1
-              className=' text-left'
+            <h3
+              className=' text-center'
               style={{
                 color: color3 ? color3 : '#000',
                 zIndex: '100',
@@ -147,9 +152,9 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
               }}
             >
               This Palette
-            </h1>
+            </h3>
             <p
-              className='text-muted'
+              className='mt-5'
               style={{
                 color: color3 ? color3 : '#000',
                 fontWeight: 900,
@@ -184,13 +189,30 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
           </div>
         </div>
 
-        <h2 className='text-center'>Services</h2>
+        <h3
+          className='text-center my-5'
+          style={{
+            color: color3 ? color3 : '#000',
+            fontWeight: '900',
+          }}
+        >
+          Services
+        </h3>
         <div className='row d-flex justify-content-center p-5 p-md-0'>
           <MaintempCard palettefortemp={palettefortemp} />
         </div>
         <div className='row mx-auto my-4 d-flex justify-content-center'>
           <div className='col-12'>
-            <h2 className='text-center my-3'>Our Team</h2>
+            <h3
+              className='text-center my-5'
+              style={{
+                color: color3 ? color3 : '#000',
+                fontWeight: 900,
+                lineHeight: 0,
+              }}
+            >
+              Our Team
+            </h3>
           </div>
           <div className='col-md-4 sm-6 text-center'>
             <img
@@ -199,18 +221,44 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
               alt='noting'
               className='our_teamimg'
             />
-            <p className='font-weight-bold'>Ram Moudgill</p>
-            <p>Full Stack Web developer</p>
+            <p
+              className='font-weight-bold'
+              style={{
+                color: color3 ? color3 : '#000',
+              }}
+            >
+              Ram Moudgill
+            </p>
+            <p
+              style={{
+                color: color3 ? color3 : '#000',
+              }}
+            >
+              Full Stack Web developer
+            </p>
           </div>
           <div className='col-md-4 sm-6 text-center'>
             <img
-              src={myself}
+              src={man}
               style={{ background: color1 }}
               alt='nothing'
               className='our_teamimg'
             />
-            <p className='font-weight-bold'>Manpreet Singh</p>
-            <p>Sab kisi mein bap hu..</p>
+            <p
+              className='font-weight-bold'
+              style={{
+                color: color3 ? color3 : '#000',
+              }}
+            >
+              Manpreet Singh
+            </p>
+            <p
+              style={{
+                color: color3 ? color3 : '#000',
+              }}
+            >
+              Full Stack Web developer
+            </p>
           </div>
         </div>
       </div>

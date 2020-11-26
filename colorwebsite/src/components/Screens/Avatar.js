@@ -1,6 +1,8 @@
 import React from 'react'
 const Avatar = ({ color1 }) => {
   const style = {
+    display: 'block',
+    margin: 'auto',
     marginTop: '-20px',
   }
   return (
@@ -13,7 +15,6 @@ const Avatar = ({ color1 }) => {
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
       >
-        <rect width='500' height='500' fill='transparent' />
         <g id='Design community-bro (1) 1'>
           <g id='freepik  background simple  inject 72'>
             <path

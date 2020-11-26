@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Color from '../Components/Color'
 import Loading from '../Components/Loading'
-const colors = ({ collection, loading }) => {
+const Colors = ({ collection, loading, trigerColors }) => {
+  useEffect(() => {
+    trigerColors()
+  }, [])
   if (loading) {
     return <Loading></Loading>
   } else {
@@ -26,4 +29,4 @@ const colors = ({ collection, loading }) => {
 // }
 // }
 
-export default colors
+export default Colors
