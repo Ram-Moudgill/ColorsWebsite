@@ -15,12 +15,12 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
   const [text, setText] = useState('')
   sidebarstatus()
 
-  // function CopytoClipBoard() {
-  //   setText('Copied!')
-  //   setTimeout(() => {
-  //     setText('')
-  //   }, 700)
-  // }
+  function CopytoClipBoard() {
+    setText('Copied!')
+    setTimeout(() => {
+      setText('')
+    }, 700)
+  }
   return (
     <>
       <div
@@ -170,21 +170,70 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
               Elements
             </h5>
             <div className='main_btn'>
-              <div
-                className='background'
-                style={{
-                  color: color3 ? color3 : '#000',
-                }}
-              >
-                Background
-              </div>
+              <CopyToClipboard text={color1 ? color1 : '#F47C5A'}>
+                <div
+                  onClick={CopytoClipBoard}
+                  className='background'
+                  style={{
+                    color: color1 ? color1 : '#fff',
+                    background: color1 ? color1 : '#F47C5A',
+                  }}
+                >
+                  <span className='text-white'>
+                    {color1 ? color1 : '#F47C5A'}
+                  </span>
+                  <p>Background</p>
+                  <span className='copied'>{text}</span>
+                </div>
+              </CopyToClipboard>
 
-              <div
-                className='heading'
-                style={{ color: color3 ? color3 : '#000' }}
-              >
-                Heading
-              </div>
+              <CopyToClipboard text={color2 ? color2 : '#503F75'}>
+                <div
+                  onClick={CopytoClipBoard}
+                  className='Heading'
+                  style={{
+                    color: color2 ? color2 : '#fff',
+                    background: color2 ? color2 : '#503F75',
+                  }}
+                >
+                  <span className='text-white'>
+                    {color2 ? color2 : '#503F75'}
+                  </span>
+                  <p>Heading</p>
+                </div>
+              </CopyToClipboard>
+
+              <CopyToClipboard text={color3 ? color3 : '#265336'}>
+                <div
+                  onClick={CopytoClipBoard}
+                  className='Button'
+                  style={{
+                    color: color3 ? color3 : '#fff',
+                    background: color3 ? color3 : '#265336',
+                  }}
+                >
+                  <span className='text-white'>
+                    {color3 ? color3 : '#265336'}
+                  </span>
+                  <p>Button</p>
+                </div>
+              </CopyToClipboard>
+
+              <CopyToClipboard text={color4 ? color4 : '#252339'}>
+                <div
+                  onClick={CopytoClipBoard}
+                  className='Paragraph'
+                  style={{
+                    color: color4 ? color4 : '#fff',
+                    background: color4 ? color4 : '#252339',
+                  }}
+                >
+                  <span className='text-white'>
+                    {color4 ? color4 : '#252339'}
+                  </span>
+                  <p>Paragraph</p>
+                </div>
+              </CopyToClipboard>
             </div>
           </div>
         </div>
@@ -201,6 +250,7 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
         <div className='row d-flex justify-content-center p-5 p-md-0'>
           <MaintempCard palettefortemp={palettefortemp} />
         </div>
+
         <div className='row mx-auto my-4 d-flex justify-content-center'>
           <div className='col-12'>
             <h3
