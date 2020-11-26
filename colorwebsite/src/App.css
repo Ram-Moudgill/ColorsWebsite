@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif !important;
+  font-family: 'Roboto', sans-serif;
   background: #ebebf3;
   color: #000;
 }
@@ -38,7 +39,6 @@ body {
   border: none !important;
 }
 .colorcard {
-  font-family: 'Poppins', sans-serif !important;
   height: 200px;
   border: transparent !important;
   border-radius: 16px !important;

@@ -15,9 +15,13 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
   sidebarstatus()
 
   function CopytoClipBoard() {
+    const copied0 = document.querySelector('.copied0').classList.add('copied')
     setText('Copied!')
     setTimeout(() => {
       setText('')
+      const copied0 = document
+        .querySelector('.copied0')
+        .classList.remove('copied')
     }, 700)
   }
   return (
@@ -90,7 +94,6 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                   color: color3 ? color3 : '#000',
                   zIndex: '100',
                   marginTop: 75,
-                  fontWeight: 900,
                   fontSize: '1.8rem',
                   lineHeight: ' 35.3px',
                   wordSpacing: '3px',
@@ -182,7 +185,7 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                     {color1 ? color1 : '#F47C5A'}
                   </span>
                   <p>Background</p>
-                  <span className='copied'>{text}</span>
+                  <span className='copied0'>{text}😍</span>
                 </div>
               </CopyToClipboard>
 
@@ -200,6 +203,7 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                     {color2 ? color2 : '#503F75'}
                   </span>
                   <p>Heading</p>
+                  <span className='copied0'>{text}😍</span>
                 </div>
               </CopyToClipboard>
 
