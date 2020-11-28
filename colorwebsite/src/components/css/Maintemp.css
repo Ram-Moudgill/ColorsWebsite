@@ -58,6 +58,10 @@
   .main_btn {
     flex-direction: column !important;
   }
+  svg {
+    width: 350px;
+    margin: -40px auto;
+  }
 }
 .temp_btn {
   z-index: 1000;
