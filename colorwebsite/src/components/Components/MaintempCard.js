@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import OpacityOutlinedIcon from '@material-ui/icons/OpacityOutlined'
 import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined'
 import ColorizeIcon from '@material-ui/icons/Colorize'
@@ -7,7 +6,7 @@ import ColorLensOutlinedIcon from '@material-ui/icons/ColorLensOutlined'
 import PalettesData from '../../components/PalettesData'
 import IconButton from '@material-ui/core/IconButton'
 const MaintempCard = ({ palettefortemp }) => {
-  const { color1, color2, color3 } = palettefortemp
+  const { color1, color3 } = palettefortemp
 
   function getAvataricon(PalettesData) {
     switch (PalettesData) {
@@ -47,13 +46,6 @@ const MaintempCard = ({ palettefortemp }) => {
               </div>
               <h5 className='card-title text-center my-3'>{val.cardTitle}</h5>
               <p className='card-text'>{val.cardText}</p>
-              <Link
-                to='#'
-                className='temp_btn btn'
-                style={{ background: color1 ? color1 : '#fff' }}
-              >
-                {val.btnText}
-              </Link>
             </div>
           </div>
         </div>

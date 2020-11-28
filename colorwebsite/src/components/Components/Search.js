@@ -22,7 +22,10 @@ class Search extends Component {
           </span>
           <button
             className='search_filter_input'
-            style={{ background: 'white', color: 'black' }}
+            style={{
+              background: 'linear-gradient(red,green,blue)',
+              color: 'black',
+            }}
             value='red'
             onClick={this.props.allColors}
             readOnly

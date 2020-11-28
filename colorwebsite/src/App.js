@@ -111,7 +111,9 @@ class App extends Component {
                       collection={this.state.collection}
                       loading={this.state.loading}
                       trigerColors={this.trigerColors}
-                    ></Colors>
+                    >
+                      <Footer />
+                    </Colors>
                   </>
                 )}
               />
@@ -124,7 +126,9 @@ class App extends Component {
                       gradientcollection={this.state.gradientscollection}
                       loading={this.state.loading}
                       trigerGradients={this.trigerGradients}
-                    ></Gradients>
+                    >
+                      <Footer />
+                    </Gradients>
                   </>
                 )}
               />
@@ -136,6 +140,7 @@ class App extends Component {
                     <div className='left  p-xl-4 p-0'>
                       {this.state.palettescollection.map((item) => (
                         <Palettediv
+                          loading={this.state.loading}
                           key={item._id}
                           item={item}
                           temppalette={this.temppalette}

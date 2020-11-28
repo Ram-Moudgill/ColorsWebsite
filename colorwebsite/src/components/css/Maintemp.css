@@ -25,32 +25,6 @@
 .navbar_style {
   width: 100%;
 }
-.copy_btn {
-  margin-bottom: 8rem;
-  padding: 0 40px;
-}
-.main_btn {
-  display: flex;
-  /* flex-direction: column; */
-  width: 100%;
-  flex-wrap: wrap;
-}
-.main_btn div {
-  flex: 1 1 40%;
-  width: 100%;
-  height: 148px;
-  position: relative;
-  margin-top: 50px;
-  margin-bottom: 8px;
-  padding: 50px 0;
-  text-align: center;
-  margin-right: 40px;
-  border-radius: 10px;
-}
-.main_btn div p {
-  margin-bottom: 0.2rem !important;
-  font-family: cursive !important;
-}
 .copied {
   top: -35px;
   position: absolute;
@@ -64,14 +38,14 @@
   /* padding-top: 53px; */
   text-align: center;
   /* padding: 8px; */
-  color: #fff;
-  background: purple;
+  color: #000;
+  background: #fff;
   border-radius: 9px;
 }
 .copied::before {
   content: '';
   position: absolute;
-  background: purple;
+  background: #fff;
   width: 20px;
   left: 39px;
   top: 24px;
@@ -85,19 +59,13 @@
     flex-direction: column !important;
   }
 }
-
-/* .navbar_style .navbar-brand {
-  color: #ffffff;
-} */
-/* .navbar_style .nav-link {
-  color: #ffffff;
-} */
-/*    */
 .temp_btn {
   z-index: 1000;
-  padding: 5px 12px;
+  padding: 4px 12px 6px 12px;
   border-radius: 21px;
+  text-decoration: none !important;
   border: none;
+  cursor: pointer;
   box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.15),
     0 1px 2px 0 rgba(60, 64, 67, 0.3);
 }
@@ -107,7 +75,6 @@
   }
 }
 .temp_cardicon {
-  /* background: linear-gradient(296deg, #ff0a21f2 0%, #d53 99%); */
   padding: 7px;
   color: #fff !important;
   box-shadow: 0 1px 3px 3px rgba(60, 64, 67, 0.15), 0 1px 2px 0 rgb(255 255 255);
@@ -118,4 +85,15 @@
   height: 168px;
   width: 158px;
   border-radius: 50%;
+}
+.clickable__card {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_para_style {
+  background: #22181852;
+  color: #fff;
+  width: 100%;
 }
