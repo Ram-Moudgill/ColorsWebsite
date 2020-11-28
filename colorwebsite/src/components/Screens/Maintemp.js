@@ -143,7 +143,7 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                 Get largest collection of Colors,Gradients and Palettes on one
                 place
               </p>
-              <a
+              <Link to='/'
                 className='temp_btn mt-2'
                 style={{
                   color: color3 ? color3 : '#000',
@@ -151,7 +151,7 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
                 } } 
               >
                 Get Started
-              </a>
+              </Link>
             </div>
             <div
               className='custom-shape-divider-bottom-1606045216'
