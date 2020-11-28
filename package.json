@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node Server.js",
     "server": "nodemon Server.js",
-    "build":"npm run build --prefix colorwebsite",
+    "build":"npm build --prefix colorwebsite",
     "colorwebsite": "npm start --prefix colorwebsite",
     "colorwebsiteinstall": "npm install --prefix colorwebsite",
     "dev": "concurrently \"npm run server\" \"npm run colorwebsite\""
