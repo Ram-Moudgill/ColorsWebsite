@@ -32,7 +32,7 @@ const AboutColors = () => {
 
             <h5 className='mt-4'>Who founded Million Colors?</h5>
             <p className='about_colors_p'>
-              Million Colors founded by &nbsp;
+              Million Colors founded by
               <Link
                 to={{ pathname: 'https://ram-moudgill.github.io/MyPortfolio/' }}
                 className='same'
@@ -56,12 +56,19 @@ const AboutColors = () => {
               If you have any quieries, suggestions or other requests feel free
               to contact us! <br></br>We are always happy to hear from you!
             </p>
-            <Link to={{ pathname: '/' }}>
-              <span>Email:&nbsp;</span>example@gmail.com
-            </Link>
+            <span>
+              <strong>Email:&nbsp; </strong>
+            </span>
+            <Link to={{ pathname: '/' }}>example@gmail.com</Link>
             <br />
-            <Link to={{ pathname: '/' }}>
-              <span>Instagram:&nbsp;</span>https://www.instagram.com
+            <span>
+              <strong>Instagram: &nbsp;</strong>
+            </span>
+            <Link
+              to={{ pathname: 'https://www.instagram.com/front_end_world/' }}
+              target='_blank'
+            >
+              https://www.instagram.com/front_end_world/
             </Link>
           </div>
         </div>

@@ -89,33 +89,50 @@ const Footer = () => {
             <div className='col-12 mt-2'>
               <p className='footer_subheading text-center'>Follow us on</p>
               <div className='icons d-flex align-items-center justify-content-center'>
-                {/* <IconButton>
-                  <FacebookIcon className='s_link_m' />
-                </IconButton>
-                <IconButton>
-                  <InstagramIcon className='s_link_m' />
-                </IconButton>
-                <IconButton>
-                  <GitHubIcon className='s_link_m' />
-                </IconButton>
-                <IconButton>
-                  <TwitterIcon className='s_link_m' />
-                </IconButton> */}
+                <Link
+                  to={{ pathname: 'https://www.facebook.com/ram.moudgill/' }}
+                  target='_blank'
+                >
+                  <i className='fab fa-facebook-square s_link'></i>
+                </Link>
 
-                <i className='fab fa-facebook-square s_link'></i>
+                <Link
+                  to={{ pathname: 'https://twitter.com/Manpree27482859' }}
+                  target='_blank'
+                >
+                  <i className='fab fa-twitter-square s_link'></i>
+                </Link>
+                <Link
+                  to={{
+                    pathname:
+                      'https://www.linkedin.com/in/manpreet-singh-76aa51193/',
+                  }}
+                  target='_blank'
+                >
+                  <i className='fab fa-linkedin-in s_link'></i>
+                </Link>
 
-                <i className='fab fa-twitter-square s_link'></i>
-                <i className='fab fa-linkedin-in s_link'></i>
-                <i className='fab fa-github s_link'></i>
-                <i className='fab fa-slack s_link'></i>
-                <i className='fab fa-instagram s_link'></i>
+                <Link
+                  to={{ pathname: 'https://github.com/Ram-Moudgill' }}
+                  target='_blank'
+                >
+                  <i className='fab fa-github s_link'></i>
+                </Link>
+                <Link
+                  to={{
+                    pathname: 'https://www.instagram.com/front_end_world/',
+                  }}
+                  target='_blank'
+                >
+                  <i className='fab fa-instagram s_link'></i>
+                </Link>
               </div>
             </div>
 
             <div className='col-12 mt-3'>
               <hr />
               <div className='d-flex justify-content-between text-muted'>
-                <p> Privacy Policy Terms and Conditions </p>
+                <p>Copyright &copy; 2020 Million Color. All rights reserved.</p>
                 <p>Million Color</p>{' '}
               </div>
             </div>
