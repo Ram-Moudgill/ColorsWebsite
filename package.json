@@ -9,7 +9,8 @@
     "build": "npm build --prefix colorwebsite",
     "colorwebsite": "npm start --prefix colorwebsite",
     "colorwebsiteinstall": "npm install --prefix colorwebsite",
-    "dev": "concurrently \"npm run server\" \"npm run colorwebsite\""
+    "dev": "concurrently \"npm run server\" \"npm run colorwebsite\"",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix colorwebsite && npm run build --prefix colorwebsite"
   },
   "author": "Ram moudgill",
   "license": "ISC",

@@ -16,6 +16,12 @@ db()
 app.use('/api/colors', colors)
 app.use('/api/gradients', gradients)
 app.use('/api/palettes', palettes)
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('colorwebsite/build'))
+  app.get('*', (req, res) =>
+    res.sendFile(path.resolve(__dirname, 'colorwebsite', 'build', 'index.html'))
+  )
+}
 app.listen(Port, () => {
   console.log(`Server is listening on http://localhost:${Port}`)
 })
