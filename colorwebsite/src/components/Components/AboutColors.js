@@ -34,7 +34,7 @@ const AboutColors = () => {
             <p className='about_colors_p'>
               Million Colors founded by
               <Link
-                to={{ pathname: 'https://ram-moudgill.github.io/MyPortfolio/' }}
+                to={{ pathname: 'https://ramgill.netlify.app/' }}
                 className='same'
                 target='_blank'
               >

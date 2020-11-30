@@ -36,7 +36,7 @@
 }
 .my_btn {
   border-radius: 5px;
-  padding: 3px 20px;
+  padding: 3px 20px 5px 20px;
   border: none;
   color: #fff;
   background: linear-gradient(90deg, #e0172af2 0%, var(--primary-color) 99%);
@@ -49,4 +49,7 @@
   background-clip: unset;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.s_link:hover {
+  transform: scale(1.3);
 }

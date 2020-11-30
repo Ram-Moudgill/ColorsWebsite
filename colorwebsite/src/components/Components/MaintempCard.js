@@ -38,7 +38,7 @@ const MaintempCard = ({ palettefortemp }) => {
                 <IconButton
                   className='temp_cardicon'
                   style={{
-                    background: color1 ? color1 : '#ff5757',
+                    background: color1 ? color1 : '#841cf7',
                   }}
                 >
                   {getAvataricon(val.avatarIcon)}

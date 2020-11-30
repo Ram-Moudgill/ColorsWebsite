@@ -4,18 +4,16 @@ import { Link } from 'react-router-dom'
 import Avatar from '../Screens/Avatar'
 import GroupOutlinedIcon from '@material-ui/icons/GroupOutlined'
 import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined'
-import { IconButton } from '@material-ui/core'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import man from '../images/newimg.png'
 import MaintempCard from '../Components/MaintempCard'
 
-const Maintemp = ({ palettefortemp, sidebarstatus }) => {
+const Maintemp = ({ palettefortemp }) => {
   const { color1, color2, color3, color4 } = palettefortemp
   const [text0, setText] = useState('')
   const [text1, setText1] = useState('')
   const [text2, setText2] = useState('')
   const [text3, setText3] = useState('')
-  sidebarstatus()
 
   function CopytoClipBoard() {
     document.querySelector('.copied0').classList.add('copied')
@@ -49,11 +47,11 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
       document.querySelector('.copied3').classList.remove('copied')
     }, 700)
   }
-  const hover=(e)=>{
-        e.target.style.background=color4
+  const hover = (e) => {
+    e.target.style.background = color4
   }
-  const defaulthover=(e)=>{
-        e.target.style.background=color1
+  const defaulthover = (e) => {
+    e.target.style.background = color1
   }
 
   return (
@@ -69,27 +67,16 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
           <div
             className=' col-12 m-0 p-0'
             style={{
-              background: color1 ? color1 : '#ff5757',
+              background: color1 ? color1 : '#841cf7',
             }}
           >
             <nav
               className='navbar navbar_style w-100'
               style={{
-                background: color1 ? color1 : '#ff5757',
+                background: color1 ? color1 : '#841cf7',
                 color: color2 ? color2 : '#000',
               }}
             >
-              <IconButton onClick={sidebarstatus}>
-                {' '}
-                <i
-                  className='fas fa-bars'
-                  aria-hidden='true'
-                  style={{
-                    color: color2 ? color2: '#000',
-                  }}
-                ></i>
-              </IconButton>
-
               <Link
                 className='navbar-brand'
                 to='/'
@@ -137,25 +124,27 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
               <p
                 style={{
                   color: color2 ? color2 : '#000',
-                  opacity: '0.8',fontSize:'1.2rem'
+                  opacity: '0.8',
+                  fontSize: '1.2rem',
                 }}
               >
                 Get largest collection of Colors,Gradients and Palettes on one
                 place
               </p>
-              <Link to='/'
+              <Link
+                to='/'
                 className='temp_btn mt-2'
                 style={{
                   color: color3 ? color3 : '#000',
-                  background: color2?color2:'#fff',
-                } } 
+                  background: color2 ? color2 : '#fff',
+                }}
               >
                 Get Started
               </Link>
             </div>
             <div
               className='custom-shape-divider-bottom-1606045216'
-              style={{ background: color1 ? color1 : '#ff5757' }}
+              style={{ background: color1 ? color1 : '#841cf7' }}
             >
               <svg
                 data-name='Layer 1'
@@ -175,98 +164,121 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
 
         <Avatar color1={color1} />
         <h3
-              className=' text-center mt-3 mb-4'
-              style={{
-                color: color3 ? color3 : '#000',
-                zIndex: '100',
-              }}
-            >
-              This Palette
-            </h3>
+          className=' text-center mt-3 mb-4'
+          style={{
+            color: color3 ? color3 : '#000',
+            zIndex: '100',
+          }}
+        >
+          This Palette
+        </h3>
+        <p
+          className='text-center'
+          style={{
+            color: color3 ? color3 : '#000',
+          }}
+        >
+          Copy color by simply clicking on card.
+        </p>
         <div className='row d-flex justify-content-center'>
-              <div className="col-md-5 p-3">
-              <CopyToClipboard text={color1 ? color1 : '#F47C5A'}>
-                <div
-                  className='card clickable__card'
-                  onClick={CopytoClipBoard}
-                  style={{
-                    color: color1 ? color1 : '#fff',
-                    background: color1 ? color1 : '#F47C5A',
-                    boxShadow: 'rgb(0 0 0 / 31%) 0 0 0 1px',
-                  }}
-                >
-                    <p  className='text-center card_para_style'>
-                      <strong>Background</strong>
-                    </p>
-                    <p className='text-center font-weight-bolder card_para_style'> {color1 ? color1 : '#F47C5A'}</p>
-                  <span className='copied0'>{text0}</span>
-                </div>
-                </CopyToClipboard>
-                </div>
-
-
-           
-              <div className="col-md-5 p-3">
-              <CopyToClipboard text={color2 ? color2 : '#503F75'}>
-                <div
-                  className='card clickable__card'
-                  onClick={CopytoClipBoard1}
-                  style={{
-                    color: color2 ? color2 : '#fff',
-                    background: color2 ? color2 : '#503F75',
-                    boxShadow: 'rgb(0 0 0 / 31%) 0 0 0 1px',
-                  }}
-                >
-                    <p className='text-center card_para_style'>
-                      <strong>Heading</strong>
-                    </p>
-                    <p className='text-center font-weight-bolder card_para_style'  > {color2 ? color2 : '#503F75'}</p>
-                  <span className='copied1'>{text1}</span>
-                </div>
-                </CopyToClipboard>
-                </div>
-             
-
-            
-              <div className="col-md-5 p-3">
-              <CopyToClipboard text={color3 ? color3 : '#265336'}>
-                <div
-                  className='card clickable__card'
-                  onClick={CopytoClipBoard2}
-                  style={{
-                    color: color3 ? color3 : '#fff',
-                    background: color3 ? color3 : '#265336',
-                    boxShadow: 'rgb(0 0 0 / 31%) 0 0 0 1px',
-                  }}
-                >
-                    <p className='text-center card_para_style'>
-                      <strong>Button</strong>
-                    </p>
-                    <p className='text-center font-weight-bolder card_para_style'> {color3 ? color3 : '#265336'}</p>
-                  <span className='copied2'>{text2}</span>
-                </div>
-                </CopyToClipboard>
-                </div>
-              <div className="col-md-5 p-3">
-              <CopyToClipboard text={color4 ? color4 : '#252339'}>
+          <div className='col-md-5 p-3'>
+            <CopyToClipboard text={color1 ? color1 : '#F47C5A'}>
               <div
-                  className='card clickable__card'
-                  onClick={CopytoClipBoard3}
-                  style={{
-                    color: color4 ? color4 : '#fff',
-                    background: color4 ? color4 : '#252339',
-                    boxShadow: 'rgb(0 0 0 / 31%) 0 0 0 1px',
-                  }}
-                >
-                    <p className='text-center card_para_style'>
-                      <strong>Paragraph</strong>
-                    </p>
-                    <p className='text-center font-weight-bolder card_para_style'> {color4 ? color4 : '#252339'}</p>
-                  <span className='copied3'>{text3}</span>
-                </div>
-                </CopyToClipboard>
+                className='card clickable__card'
+                onClick={CopytoClipBoard}
+                style={{
+                  color: color1 ? color1 : '#fff',
+                  background: color1 ? color1 : '#841cf7',
+                  boxShadow: 'rgb(0 0 0 / 31%) 0 0 0 1px',
+                }}
+              >
+                <p className='text-center card_para_style'>
+                  <strong>Color 1</strong>
+                  <br />
+                  Header buttons svg Cardicons Image
+                </p>
+                <p className='text-center font-weight-bolder card_para_style'>
+                  {' '}
+                  {color1 ? color1 : '#841cf7'}
+                </p>
+                <span className='copied0'>{text0}</span>
               </div>
+            </CopyToClipboard>
+          </div>
 
+          <div className='col-md-5 p-3'>
+            <CopyToClipboard text={color2 ? color2 : '#503F75'}>
+              <div
+                className='card clickable__card'
+                onClick={CopytoClipBoard1}
+                style={{
+                  color: color2 ? color2 : '#fff',
+                  background: color2 ? color2 : '#fff',
+                  boxShadow: 'rgb(0 0 0 / 31%) 0 0 0 1px',
+                }}
+              >
+                <p className='text-center card_para_style'>
+                  <strong>Color 2</strong>
+                  <br />
+                  Body Buttons
+                </p>
+                <p className='text-center font-weight-bolder card_para_style'>
+                  {' '}
+                  {color2 ? color2 : '#fff'}
+                </p>
+                <span className='copied1'>{text1}</span>
+              </div>
+            </CopyToClipboard>
+          </div>
+
+          <div className='col-md-5 p-3'>
+            <CopyToClipboard text={color3 ? color3 : '#265336'}>
+              <div
+                className='card clickable__card'
+                onClick={CopytoClipBoard2}
+                style={{
+                  color: color3 ? color3 : '#fff',
+                  background: color3 ? color3 : '#000',
+                  boxShadow: 'rgb(0 0 0 / 31%) 0 0 0 1px',
+                }}
+              >
+                <p className='text-center card_para_style'>
+                  <strong>Color 3</strong>
+                  <br />
+                  Text
+                </p>
+                <p className='text-center font-weight-bolder card_para_style'>
+                  {' '}
+                  {color3 ? color3 : '#000'}
+                </p>
+                <span className='copied2'>{text2}</span>
+              </div>
+            </CopyToClipboard>
+          </div>
+          <div className='col-md-5 p-3'>
+            <CopyToClipboard text={color4 ? color4 : '#252339'}>
+              <div
+                className='card clickable__card'
+                onClick={CopytoClipBoard3}
+                style={{
+                  color: color4 ? color4 : '#fff',
+                  background: color4 ? color4 : '#fff',
+                  boxShadow: 'rgb(0 0 0 / 31%) 0 0 0 1px',
+                }}
+              >
+                <p className='text-center card_para_style'>
+                  <strong>Color 4</strong>
+                  <br />
+                  Hover Effect Image
+                </p>
+                <p className='text-center font-weight-bolder card_para_style'>
+                  {' '}
+                  {color4 ? color4 : '#fff'}
+                </p>
+                <span className='copied3'>{text3}</span>
+              </div>
+            </CopyToClipboard>
+          </div>
         </div>
 
         <h3
@@ -300,7 +312,9 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
               src={man}
               style={{ background: color1 }}
               alt='noting'
-              className='our_teamimg'  onMouseOver={hover} onMouseLeave={defaulthover}
+              className='our_teamimg'
+              onMouseOver={hover}
+              onMouseLeave={defaulthover}
             />
             <p
               className='font-weight-bold'
@@ -323,7 +337,9 @@ const Maintemp = ({ palettefortemp, sidebarstatus }) => {
               src={man}
               style={{ background: color1 }}
               alt='nothing'
-              className='our_teamimg'  onMouseOver={hover} onMouseLeave={defaulthover}
+              className='our_teamimg'
+              onMouseOver={hover}
+              onMouseLeave={defaulthover}
             />
             <p
               className='font-weight-bold'

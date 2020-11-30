@@ -12,7 +12,7 @@ const CardSection = ({ mode }) => {
               iconClass={'fas fa-eye-dropper'}
               cardTitle={'Best Color Picker'}
               CardDescription={
-                'Best color picker for you.pick any color with exact correct value in rgb,hsl and hex format'
+                'Best color picker for you. Pick any color with exact correct value in rgb,hsl and hex format'
               }
             ></Card>
             <Card
@@ -20,7 +20,7 @@ const CardSection = ({ mode }) => {
               iconClass={'far fa-grin-alt'}
               cardTitle={'Trending Colors'}
               CardDescription={
-                'A color trend is a direction. It’s a developing awareness or an emerging preference for a color or several colors.'
+                'A color trend is a direction. It’s a developing awareness or an emerging preference for a color or several colors.We have large collection of colors;'
               }
             ></Card>
             <Card
@@ -44,7 +44,7 @@ const CardSection = ({ mode }) => {
               iconClass={'fas fa-search'}
               cardTitle={'Color Filter'}
               CardDescription={
-                'You can also filtering single color and get combinations of similar colors.'
+                'You can also filter colors by simply clicking buttons and get different shades of similar colors.'
               }
             ></Card>
             <Card
@@ -52,7 +52,7 @@ const CardSection = ({ mode }) => {
               iconClass={'fas fa-user-friends'}
               cardTitle={'Easy to use'}
               CardDescription={
-                'Our website is very Consistency, readability, responsive design, easy loading, simple navigation, user friendly communication etc. '
+                'This website is very easy to use. You can easily navigate and get colors with simple navigation, this makes this website easy to use and user friendly. '
               }
             ></Card>
           </div>

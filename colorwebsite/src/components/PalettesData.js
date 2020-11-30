@@ -1,35 +1,35 @@
 const PalettesData = [
   {
     _id: '1',
-    cardTitle: 'Card title',
+    cardTitle: 'Palette Schema',
     cardText:
-      " Some quick example text to build on the card title and make up the bulk of the card's content.",
+      'Four Colors palette  is most common palette schema format to build any webpage. This Website provide you the trending palettes ',
     btnText: 'Go somewhere',
-    avatarIcon: 'a',
+    avatarIcon: 'd',
   },
   {
     _id: '2',
-    cardTitle: 'Card title',
+    cardTitle: 'Palette bar',
     cardText:
-      " Some quick example text to build on the card title and make up the bulk of the card's content.",
-    btnText: 'Go somewhere',
-    avatarIcon: 'b',
-  },
-  {
-    _id: '3',
-    cardTitle: 'Card title',
-    cardText:
-      " Some quick example text to build on the card title and make up the bulk of the card's content.",
+      'Palette bar conatins many color palettes click any color palette and get changes in the tempalte without loading . ',
     btnText: 'Go somewhere',
     avatarIcon: 'c',
   },
   {
-    _id: '4',
-    cardTitle: 'Card title',
+    _id: '3',
+    cardTitle: 'Copy palette colors',
     cardText:
-      " Some quick example text to build on the card title and make up the bulk of the card's content.",
+      ' Given template conatains the this palette section copy colors to your clipboard by simply click on cards. ',
     btnText: 'Go somewhere',
-    avatarIcon: 'd',
+    avatarIcon: 'a',
+  },
+  {
+    _id: '4',
+    cardTitle: 'User Friendly',
+    cardText:
+      'This webpage is focusing on the users to provide them best palettes for thier brand ,websites ,portfolios and web designs',
+    btnText: 'Go somewhere',
+    avatarIcon: 'b',
   },
 ]
 export default PalettesData

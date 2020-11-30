@@ -25,25 +25,25 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                <Link to='/TryColors' className='footer__link'>
-                  Try Colors
+                <Link to='/Palettes' className='footer__link'>
+                  Palettes
                 </Link>
               </p>
             </div>
             <div className='col-md-2 '>
               <p className=' font-weight-bold footer_subheading'>Page</p>
               <p>
-                <Link to='/' className='footer__link'>
+                <Link to='/privacy' className='footer__link'>
                   Blog
                 </Link>
               </p>
               <p>
-                <Link to='/' className='footer__link'>
+                <Link to='/privacy' className='footer__link'>
                   Info
                 </Link>
               </p>
               <p>
-                <Link to='/' className='footer__link'>
+                <Link to='/privacy' className='footer__link'>
                   Resource
                 </Link>
               </p>
@@ -51,17 +51,17 @@ const Footer = () => {
             <div className='col-md-2 '>
               <p className='font-weight-bold footer_subheading'>Company</p>
               <p>
-                <Link to='/' className='footer__link'>
+                <Link to='/privacy' className='footer__link'>
                   Terms of service
                 </Link>
               </p>
               <p>
-                <Link to='/' className='footer__link'>
+                <Link to='/privacy' className='footer__link'>
                   Privacy Policy
                 </Link>
               </p>
               <p>
-                <Link to='/' className='footer__link'>
+                <Link to='/privacy' className='footer__link'>
                   Contact
                 </Link>
               </p>
@@ -77,14 +77,15 @@ const Footer = () => {
                   className=' input__design'
                 ></input>
               </div>
-
-              <button
-                type='submit'
-                className=' my_btn mt-3'
-                value='Enter Your Email'
-              >
-                Submit
-              </button>
+              <Link to='/privacy'>
+                <button
+                  // type='submit'
+                  className=' my_btn mt-3'
+                  value='Enter Your Email'
+                >
+                  Submit
+                </button>
+              </Link>
             </div>
             <div className='col-12 mt-2'>
               <p className='footer_subheading text-center'>Follow us on</p>

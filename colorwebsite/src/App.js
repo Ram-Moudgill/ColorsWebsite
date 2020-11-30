@@ -12,6 +12,7 @@ import Footer from './components/Components/Footer'
 import axios from 'axios'
 import Palettediv from './components/Components/Palettediv'
 import Maintemp from './components/Screens/Maintemp'
+import development from './components/Screens/Development'
 
 class App extends Component {
   state = {
@@ -20,7 +21,6 @@ class App extends Component {
     palettescollection: [],
     loading: false,
     mode: true,
-    sidebarstatus: true,
     palettefortemp: {
       color1: '',
       color2: '',
@@ -44,14 +44,12 @@ class App extends Component {
   }
   changeMode = (modevalue) => {
     this.setState({ mode: modevalue })
-    // console.log(this.state.mode)
   }
   temppalette = (color1, color2, color3, color4) => {
     this.setState({
       palettefortemp: { color1, color2, color3, color4 },
     })
   }
-  sidebarstatus = () => {}
   trigerColors = () => {
     if (this.state.collection.length === 0) {
       const trigerColorsdata = async () => {
@@ -150,13 +148,13 @@ class App extends Component {
                     <div className='right '>
                       <Maintemp
                         palettefortemp={this.state.palettefortemp}
-                        sidebarstatus={this.sidebarstatus}
                       ></Maintemp>
                       <Footer />
                     </div>
                   </>
                 )}
               />
+              <Route exact path='/privacy' component={development} />
               <Redirect to='/' />
             </Switch>
           </div>
