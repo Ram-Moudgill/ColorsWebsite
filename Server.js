@@ -22,6 +22,7 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(path.resolve(__dirname, 'colorwebsite', 'build', 'index.html'))
   )
 }
+
 app.listen(Port, () => {
   console.log(`Server is listening on http://localhost:${Port}`)
 })
