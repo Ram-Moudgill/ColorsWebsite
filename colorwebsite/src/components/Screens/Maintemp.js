@@ -81,7 +81,7 @@ const Maintemp = ({ palettefortemp }) => {
                 className='navbar-brand'
                 to='/'
                 style={{
-                  color: color2 ? color2 : '#000',
+                  color: color2 ? color2 : '#fff',
                 }}
               >
                 Million Colors
@@ -91,7 +91,7 @@ const Maintemp = ({ palettefortemp }) => {
                   className='navbar-brand '
                   to='/'
                   style={{
-                    color: color2 ? color2 : '#000',
+                    color: color2 ? color2 : '#fff',
                   }}
                 >
                   <HomeOutlinedIcon></HomeOutlinedIcon>
@@ -100,7 +100,7 @@ const Maintemp = ({ palettefortemp }) => {
                   className='navbar-brand '
                   to='/'
                   style={{
-                    color: color2 ? color2 : '#000',
+                    color: color2 ? color2 : '#fff',
                   }}
                 >
                   <GroupOutlinedIcon></GroupOutlinedIcon>
@@ -110,7 +110,7 @@ const Maintemp = ({ palettefortemp }) => {
             <div className='text-center'>
               <h1
                 style={{
-                  color: color2 ? color2 : '#000',
+                  color: color2 ? color2 : '#fff',
                   zIndex: '100',
                   marginTop: 75,
                   fontSize: '1.8rem',
@@ -123,7 +123,7 @@ const Maintemp = ({ palettefortemp }) => {
               </h1>
               <p
                 style={{
-                  color: color2 ? color2 : '#000',
+                  color: color2 ? color2 : '#fff',
                   opacity: '0.8',
                   fontSize: '1.2rem',
                 }}
@@ -220,7 +220,7 @@ const Maintemp = ({ palettefortemp }) => {
                 <p className='text-center card_para_style'>
                   <strong>Color 2</strong>
                   <br />
-                  Body Buttons
+                  Body Buttons Header-TextColor
                 </p>
                 <p className='text-center font-weight-bolder card_para_style'>
                   {' '}
