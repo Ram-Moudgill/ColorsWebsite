@@ -154,8 +154,6 @@ class App extends Component {
                   </>
                 )}
               />
-              <Route exact path='/privacy' component={development} />
-              <Redirect to='/' />
             </Switch>
           </div>
         </BrowserRouter>
