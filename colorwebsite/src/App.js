@@ -154,6 +154,7 @@ class App extends Component {
                   </>
                 )}
               />
+              <Route exact path='/development' component={Development} />
             </Switch>
           </div>
         </BrowserRouter>

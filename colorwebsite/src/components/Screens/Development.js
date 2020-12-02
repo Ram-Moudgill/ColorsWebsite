@@ -1,5 +1,4 @@
 import React from 'react'
-import gif from '../images/fxcT.gif'
 const Development = () => {
   return (
     <>
@@ -9,8 +8,6 @@ const Development = () => {
           This section is under Under development
         </h5>
       </div>
-       <div className="col-md-6 mt-5">
-        <img src={gif} alt="" style={{height:'200px',width:'200px'}}/></div>
       </div>
     </>
   )

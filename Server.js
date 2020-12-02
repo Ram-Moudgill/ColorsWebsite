@@ -1,5 +1,6 @@
 const express = require('express')
 const Port = process.env.PORT || 5000
+const path = require('path')
 const cors = require('cors')
 const db = require('./config/db')
 const colors = require('./routes/colors')
@@ -22,7 +23,6 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(path.resolve(__dirname, 'colorwebsite', 'build', 'index.html'))
   )
 }
-
 app.listen(Port, () => {
   console.log(`Server is listening on http://localhost:${Port}`)
 })

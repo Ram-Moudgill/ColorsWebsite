@@ -26,7 +26,5 @@ const Colors = ({ collection, loading, trigerColors }) => {
     )
   }
 }
-// }
-// }
 
 export default Colors

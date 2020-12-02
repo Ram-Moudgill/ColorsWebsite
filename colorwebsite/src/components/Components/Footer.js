@@ -33,17 +33,17 @@ const Footer = () => {
             <div className='col-md-2 '>
               <p className=' font-weight-bold footer_subheading'>Page</p>
               <p>
-                <Link to='/privacy' className='footer__link'>
+                <Link to='/development' className='footer__link'>
                   Blog
                 </Link>
               </p>
               <p>
-                <Link to='/privacy' className='footer__link'>
+                <Link to='/development' className='footer__link'>
                   Info
                 </Link>
               </p>
               <p>
-                <Link to='/privacy' className='footer__link'>
+                <Link to='/development' className='footer__link'>
                   Resource
                 </Link>
               </p>
@@ -51,17 +51,17 @@ const Footer = () => {
             <div className='col-md-2 '>
               <p className='font-weight-bold footer_subheading'>Company</p>
               <p>
-                <Link to='/privacy' className='footer__link'>
+                <Link to='/development' className='footer__link'>
                   Terms of service
                 </Link>
               </p>
               <p>
-                <Link to='/privacy' className='footer__link'>
-                  Privacy Policy
+                <Link to='/development' className='footer__link'>
+                  development Policy
                 </Link>
               </p>
               <p>
-                <Link to='/privacy' className='footer__link'>
+                <Link to='/development' className='footer__link'>
                   Contact
                 </Link>
               </p>
@@ -77,7 +77,7 @@ const Footer = () => {
                   className=' input__design'
                 ></input>
               </div>
-              <Link to='/privacy'>
+              <Link to='/development'>
                 <button
                   // type='submit'
                   className=' my_btn mt-3'
