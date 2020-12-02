@@ -12,7 +12,7 @@ import Footer from './components/Components/Footer'
 import axios from 'axios'
 import Palettediv from './components/Components/Palettediv'
 import Maintemp from './components/Screens/Maintemp'
-import development from './components/Screens/Development'
+import Development from './components/Screens/Development'
 
 class App extends Component {
   state = {
@@ -155,6 +155,7 @@ class App extends Component {
                 )}
               />
               <Route exact path='/development' component={Development} />
+              <Redirect to='/' />
             </Switch>
           </div>
         </BrowserRouter>
